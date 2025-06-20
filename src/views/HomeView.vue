@@ -61,7 +61,7 @@ body {
 }
 
 #cards {
-  height: 916px;
+  height: 806px;
   flex-shrink: 0;
   display: flex;
   justify-content: space-between;

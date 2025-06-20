@@ -12,10 +12,10 @@ const props = defineProps({
 })
 const players = {}
 onMounted(() => {
-    const x = -310;
-    const y = -520;
-    const width = 620;
-    const height = width / 534 * 916;
+    const x = -314;
+    const y = -533;
+    const width = 631;
+    const height = width / 478 * 806;
     for (let spineName of characterList[props.characterName]['spine']) {
         players[spineName] = new spine.SpinePlayer(spineName, {
             skelUrl: `/resources/${props.characterName}/${spineName}.skel`,
@@ -74,30 +74,31 @@ function attack() {
 
 <style scoped>
 .card {
-    width: 534px;
-    height: 916px;
-    padding-left: 75px;
-    padding-right: 75px
+    width: 478px;
+    height: 806px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .cardface {
-    width: 534px;
-    height: 916px;
+    width: 478px;
+    height: 806px;
     overflow: hidden;
     position: absolute;
-    background-size: 789px 1150px;
-    background-position: -128px -106px;
+    background-size: 696px 1024px;
+    background-position: -109px -109px;
 }
 
 .cardframe {
-    width: 534px;
-    height: 916px;
+    width: 478px;
+    height: 806px;
     overflow: hidden;
     position: absolute;
     border-width: 1px;
+    box-sizing: border-box;
     border-style: solid;
     border-image: url(../assets/UI_TeyvatCard_CardFrame_Platinum.png) 40% stretch;
-    border-image-width: 205px;
-    border-image-outset: 17px;
+    border-image-width: 179px;
+    border-image-outset: 11px;
 }
 </style>
