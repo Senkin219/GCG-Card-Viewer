@@ -1,0 +1,21 @@
+{
+  "name": "gcg-card-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "gen:charlist": "node scripts/generateCharacterList.js",
+    "dev": "npm run gen:charlist && vite",
+    "build": "npm run gen:charlist && vite build",
+    "preview": "vite --host"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.5",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "unplugin-element-plus": "^0.7.1",
+    "vite": "^4.3.5"
+  }
+}
