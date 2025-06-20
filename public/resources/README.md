@@ -1,1 +1,0 @@
-https://github.com/Senkin219/GI-Character-Spine/tree/main/TCG
