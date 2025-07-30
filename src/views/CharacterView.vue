@@ -39,7 +39,7 @@ body {
 }
 
 #container {
-  background-image: url(../assets/background.jpg);
+  background-image: url(../assets/background.png);
   background-size: cover;
   display: flex;
   justify-content: center;
