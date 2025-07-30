@@ -20,6 +20,10 @@ function getCharacterData(characterFolder) {
 
     if (spine.length > 1) {
         spine.sort((a, b) => {
+            if (a.includes('_Sub3_')) return -1;
+            if (b.includes('_Sub3_')) return 1;
+            if (a.includes('_Sub2_')) return -1;
+            if (b.includes('_Sub2_')) return 1;
             if (a.includes('_Sub_')) return -1;
             if (b.includes('_Sub_')) return 1;
             if (a.includes('02_')) return -1;
