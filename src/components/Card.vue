@@ -24,7 +24,7 @@ onMounted(() => {
             showControls: false,
             showLoading: false,
             alpha: true,
-            defaultMix: 0.2,
+            defaultMix: characterList[props.characterName]['mix'],
             viewport: {
                 x: x,
                 y: y,

@@ -1,949 +1,1096 @@
 const characterList = {
     "Avatar_Albedo": {
-        "bg": "Gcg_CardFace_Char_Avatar_Albedo_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Albedo_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Albedo_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Alhatham": {
-        "bg": "Gcg_CardFace_Char_Avatar_Alhatham_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Alhatham_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Alhatham_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Alhatham_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Ambor": {
-        "bg": "Gcg_CardFace_Char_Avatar_Ambor_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Ambor_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Ambor_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Arlecchino": {
-        "bg": "Gcg_CardFace_Char_Avatar_Arlecchino_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Arlecchino_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Arlecchino_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Arlecchino_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Ayaka": {
-        "bg": "Gcg_CardFace_Char_Avatar_Ayaka_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Ayaka_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Ayaka_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Ayato": {
-        "bg": "Gcg_CardFace_Char_Avatar_Ayato_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Ayato_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Ayato_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Ayato_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Baizhuer": {
-        "bg": "Gcg_CardFace_Char_Avatar_Baizhuer_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Baizhuer_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Baizhuer_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.05
     },
     "Avatar_Barbara": {
-        "bg": "Gcg_CardFace_Char_Avatar_Barbara_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Barbara_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Barbara_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.05
     },
     "Avatar_Beidou": {
-        "bg": "Gcg_CardFace_Char_Avatar_Beidou_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Beidou_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Beidou_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Bennett": {
-        "bg": "Gcg_CardFace_Char_Avatar_Bennett_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Bennett_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Bennett_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Candace": {
-        "bg": "Gcg_CardFace_Char_Avatar_Candace_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Candace_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Candace_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Candace_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Charlotte": {
-        "bg": "Gcg_CardFace_Char_Avatar_Charlotte_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Charlotte_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Charlotte_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Charlotte_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.1
     },
     "Avatar_Chasca": {
-        "bg": "Gcg_CardFace_Char_Avatar_Chasca_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Chasca_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Chasca_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Chasca_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Chevreuse": {
-        "bg": "Gcg_CardFace_Char_Avatar_Chevreuse_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Chevreuse_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Chevreuse_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Chiori": {
-        "bg": "Gcg_CardFace_Char_Avatar_Chiori_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Chiori_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Chiori_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Chiori_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Chongyun": {
-        "bg": "Gcg_CardFace_Char_Avatar_Chongyun_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Chongyun_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Chongyun_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.1
     },
     "Avatar_Citlali": {
-        "bg": "Gcg_CardFace_Char_Avatar_Citlali_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Citlali_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Citlali_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Citlali_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Clorinde": {
-        "bg": "Gcg_CardFace_Char_Avatar_Clorinde_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Clorinde_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Clorinde_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Collei": {
-        "bg": "Gcg_CardFace_Char_Avatar_Collei_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Collei_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Collei_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Cyno": {
-        "bg": "Gcg_CardFace_Char_Avatar_Cyno_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Cyno_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Cyno_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Cyno02": {
-        "bg": "Gcg_CardFace_Char_Avatar_Cyno_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Cyno_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Cyno02_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Dehya": {
-        "bg": "Gcg_CardFace_Char_Avatar_Dehya_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Dehya_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Dehya_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Diluc": {
-        "bg": "Gcg_CardFace_Char_Avatar_Diluc_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Diluc_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Diluc_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Diona": {
-        "bg": "Gcg_CardFace_Char_Avatar_Diona_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Diona_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Diona_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Dori": {
-        "bg": "Gcg_CardFace_Char_Avatar_Dori_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Dori_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Dori_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.05
     },
     "Avatar_Emilie": {
-        "bg": "Gcg_CardFace_Char_Avatar_Emilie_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Emilie_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Emilie_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Emilie_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Eula": {
-        "bg": "Gcg_CardFace_Char_Avatar_Eula_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Eula_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Eula_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Faruzan": {
-        "bg": "Gcg_CardFace_Char_Avatar_Faruzan_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Faruzan_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Faruzan_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Faruzan_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Feiyan": {
-        "bg": "Gcg_CardFace_Char_Avatar_Feiyan_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Feiyan_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Feiyan_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Fischl": {
-        "bg": "Gcg_CardFace_Char_Avatar_Fischl_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Fischl_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Fischl_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Freminet": {
-        "bg": "Gcg_CardFace_Char_Avatar_Freminet_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Freminet_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Freminet_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Freminet_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Freminet02": {
-        "bg": "Gcg_CardFace_Char_Avatar_Freminet_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Freminet_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Freminet_02_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Freminet_02_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Furina": {
-        "bg": "Gcg_CardFace_Char_Avatar_Furina_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Furina_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Furina_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Furina_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_FurinaOusia": {
-        "bg": "Gcg_CardFace_Char_Avatar_FurinaOusia_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_FurinaOusia_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_FurinaOusia_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_FurinaOusia_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Gaming": {
-        "bg": "Gcg_CardFace_Char_Avatar_Gaming_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Gaming_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Gaming_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Ganyu": {
-        "bg": "Gcg_CardFace_Char_Avatar_Ganyu_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Ganyu_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Ganyu_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Gorou": {
-        "bg": "Gcg_CardFace_Char_Avatar_Gorou_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Gorou_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Gorou_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
+    },
+    "Avatar_Heizo": {
+        "bg": "Gcg_CardFace_Char_Avatar_Heizo_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Heizo_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_Heizo_Spine"
+        ],
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Hutao": {
-        "bg": "Gcg_CardFace_Char_Avatar_Hutao_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Hutao_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Hutao_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Itto": {
-        "bg": "Gcg_CardFace_Char_Avatar_Itto_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Itto_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Itto_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Kachina": {
-        "bg": "Gcg_CardFace_Char_Avatar_Kachina_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Kachina_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Kachina_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Kaeya": {
-        "bg": "Gcg_CardFace_Char_Avatar_Kaeya_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Kaeya_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Kaeya_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Kaveh": {
-        "bg": "Gcg_CardFace_Char_Avatar_Kaveh_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Kaveh_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Kaveh_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Kaveh_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Kazuha": {
-        "bg": "Gcg_CardFace_Char_Avatar_Kazuha_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Kazuha_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Kazuha_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Kazuha_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Keqing": {
-        "bg": "Gcg_CardFace_Char_Avatar_Keqing_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Keqing_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Keqing_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Kinich": {
-        "bg": "Gcg_CardFace_Char_Avatar_Kinich_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Kinich_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Kinich_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Kinich_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Klee": {
-        "bg": "Gcg_CardFace_Char_Avatar_Klee_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Klee_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Klee_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Kokomi": {
-        "bg": "Gcg_CardFace_Char_Avatar_Kokomi_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Kokomi_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Kokomi_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.1
+    },
+    "Avatar_Lanyan": {
+        "bg": "Gcg_CardFace_Char_Avatar_Lanyan_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Lanyan_Sub3_Spine",
+            "Gcg_CardFace_Char_Avatar_Lanyan_Sub2_Spine",
+            "Gcg_CardFace_Char_Avatar_Lanyan_Spine"
+        ],
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Layla": {
-        "bg": "Gcg_CardFace_Char_Avatar_Layla_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Layla_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Layla_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Linette": {
-        "bg": "Gcg_CardFace_Char_Avatar_Linette_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Linette_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Linette_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Linette_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Liney": {
-        "bg": "Gcg_CardFace_Char_Avatar_Liney_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Liney_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Liney_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Liney_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Lisa": {
-        "bg": "Gcg_CardFace_Char_Avatar_Lisa_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Lisa_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Lisa_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Lisa_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Liuyun": {
-        "bg": "Gcg_CardFace_Char_Avatar_Liuyun_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Liuyun_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Liuyun_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Liuyun_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Mavuika": {
-        "bg": "Gcg_CardFace_Char_Avatar_Mavuika_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Mavuika_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Mavuika_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Mavuika_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Mavuika02": {
-        "bg": "Gcg_CardFace_Char_Avatar_Mavuika_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Mavuika_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Mavuika02_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Mavuika02_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Momoka": {
-        "bg": "Gcg_CardFace_Char_Avatar_Momoka_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Momoka_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Momoka_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.05
     },
     "Avatar_Mona": {
-        "bg": "Gcg_CardFace_Char_Avatar_Mona_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Mona_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Mona_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Mualani": {
-        "bg": "Gcg_CardFace_Char_Avatar_Mualani_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Mualani_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Mualani_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Nahida": {
-        "bg": "Gcg_CardFace_Char_Avatar_Nahida_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Nahida_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Nahida_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Nahida_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.1
     },
     "Avatar_Navia": {
-        "bg": "Gcg_CardFace_Char_Avatar_Navia_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Navia_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Navia_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Navia_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.1
     },
     "Avatar_Neuvillette": {
-        "bg": "Gcg_CardFace_Char_Avatar_Neuvillette_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Neuvillette_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Neuvillette_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Nilou": {
-        "bg": "Gcg_CardFace_Char_Avatar_Nilou_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Nilou_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Nilou_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Ningguang": {
-        "bg": "Gcg_CardFace_Char_Avatar_Ningguang_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Ningguang_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Ningguang_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Noel": {
-        "bg": "Gcg_CardFace_Char_Avatar_Noel_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Noel_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Noel_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Qin": {
-        "bg": "Gcg_CardFace_Char_Avatar_Qin_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Qin_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Qin_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Qiqi": {
-        "bg": "Gcg_CardFace_Char_Avatar_Qiqi_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Qiqi_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Qiqi_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.1
     },
     "Avatar_Razor": {
-        "bg": "Gcg_CardFace_Char_Avatar_Razor_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Razor_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Razor_02_Spine",
             "Gcg_CardFace_Char_Avatar_Razor_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Rosaria": {
-        "bg": "Gcg_CardFace_Char_Avatar_Rosaria_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Rosaria_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Rosaria_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Sara": {
-        "bg": "Gcg_CardFace_Char_Avatar_Sara_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Sara_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Sara_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Sara_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Sayu": {
-        "bg": "Gcg_CardFace_Char_Avatar_Sayu_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Sayu_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Sayu_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Sethos": {
-        "bg": "Gcg_CardFace_Char_Avatar_Sethos_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Sethos_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Sethos_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Shenhe": {
-        "bg": "Gcg_CardFace_Char_Avatar_Shenhe_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Shenhe_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Shenhe_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Shenhe_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Shinobu": {
-        "bg": "Gcg_CardFace_Char_Avatar_Shinobu_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Shinobu_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Shinobu_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Shinobu_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Shougun": {
-        "bg": "Gcg_CardFace_Char_Avatar_Shougun_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Shougun_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Shougun_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Shougun_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Sigewinne": {
-        "bg": "Gcg_CardFace_Char_Avatar_Sigewinne_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Sigewinne_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Sigewinne_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Sigewinne_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Sucrose": {
-        "bg": "Gcg_CardFace_Char_Avatar_Sucrose_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Sucrose_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Sucrose_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Tartaglia": {
-        "bg": "Gcg_CardFace_Char_Avatar_Tartaglia_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Tartaglia_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Tartaglia_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Tartaglia_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Tartaglia02": {
-        "bg": "Gcg_CardFace_Char_Avatar_Tartaglia_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Tartaglia_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Tartaglia02_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Tartaglia02_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Tighnari": {
-        "bg": "Gcg_CardFace_Char_Avatar_Tighnari_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Tighnari_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Tighnari_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Tohma": {
-        "bg": "Gcg_CardFace_Char_Avatar_Tohma_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Tohma_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Tohma_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Venti": {
-        "bg": "Gcg_CardFace_Char_Avatar_Venti_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Venti_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Venti_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Venti_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Wanderer": {
-        "bg": "Gcg_CardFace_Char_Avatar_Wanderer_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Wanderer_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Wanderer_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Wanderer02": {
-        "bg": "Gcg_CardFace_Char_Avatar_Wanderer_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Wanderer_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Wanderer02_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Wriothesley": {
-        "bg": "Gcg_CardFace_Char_Avatar_Wriothesley_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Wriothesley_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Wriothesley_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Wriothesley_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Xiangling": {
-        "bg": "Gcg_CardFace_Char_Avatar_Xiangling_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Xiangling_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Xiangling_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Xiao": {
-        "bg": "Gcg_CardFace_Char_Avatar_Xiao_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Xiao_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Xiao_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Xiao02": {
-        "bg": "Gcg_CardFace_Char_Avatar_Xiao_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Xiao_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Xiao02_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Xilonen": {
-        "bg": "Gcg_CardFace_Char_Avatar_Xilonen_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Xilonen_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Xilonen_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Xilonen_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Xingqiu": {
-        "bg": "Gcg_CardFace_Char_Avatar_Xingqiu_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Xingqiu_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Xingqiu_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Xinyan": {
-        "bg": "Gcg_CardFace_Char_Avatar_Xinyan_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Xinyan_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Xinyan_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Yae": {
-        "bg": "Gcg_CardFace_Char_Avatar_Yae_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Yae_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Yae_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Yaoyao": {
-        "bg": "Gcg_CardFace_Char_Avatar_Yaoyao_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Yaoyao_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Yaoyao_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Yaoyao_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Yelan": {
-        "bg": "Gcg_CardFace_Char_Avatar_Yelan_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Yelan_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Yelan_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Avatar_Yoimiya": {
-        "bg": "Gcg_CardFace_Char_Avatar_Yoimiya_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Yoimiya_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Yoimiya_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Yunjin": {
-        "bg": "Gcg_CardFace_Char_Avatar_Yunjin_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Yunjin_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Yunjin_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Yunjin_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Zhongli": {
-        "bg": "Gcg_CardFace_Char_Avatar_Zhongli_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Zhongli_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Zhongli_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Zhongli_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Apep": {
-        "bg": "Gcg_CardFace_Char_Monster_Apep_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Apep_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Apep_Sub_Spine",
             "Gcg_CardFace_Char_Monster_Apep_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_BruteRock": {
-        "bg": "Gcg_CardFace_Char_Monster_BruteRock_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_BruteRock_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_BruteRock_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_ChrysopeleaSacred": {
-        "bg": "Gcg_CardFace_Char_Monster_ChrysopeleaSacred_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_ChrysopeleaSacred_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_ChrysopeleaSacred_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Dahaka": {
-        "bg": "Gcg_CardFace_Char_Monster_Dahaka_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Dahaka_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Dahaka_Sub_Spine",
             "Gcg_CardFace_Char_Monster_Dahaka_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_DarkwraithRock": {
-        "bg": "Gcg_CardFace_Char_Monster_DarkwraithRock_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_DarkwraithRock_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_DarkwraithRock_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_DeaconFire": {
-        "bg": "Gcg_CardFace_Char_Monster_DeaconFire_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_DeaconFire_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_DeaconFire_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Dvalin": {
-        "bg": "Gcg_CardFace_Char_Monster_Dvalin_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Dvalin_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Dvalin_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Effigyelectric": {
-        "bg": "Gcg_CardFace_Char_Monster_Effigyelectric_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Effigyelectric_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Effigyelectric_Sub_Spine",
             "Gcg_CardFace_Char_Monster_Effigyelectric_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Effigyice": {
-        "bg": "Gcg_CardFace_Char_Monster_Effigyice_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Effigyice_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Effigyice_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_EremiteGrass": {
-        "bg": "Gcg_CardFace_Char_Monster_EremiteGrass_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_EremiteGrass_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_EremiteGrass_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_EscadronIce": {
-        "bg": "Gcg_CardFace_Char_Monster_EscadronIce_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_EscadronIce_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_EscadronIce_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Fatuus": {
-        "bg": "Gcg_CardFace_Char_Monster_Fatuus_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Fatuus_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Fatuus_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_FatuusMageice": {
-        "bg": "Gcg_CardFace_Char_Monster_FatuusMageice_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_FatuusMageice_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_FatuusMageice_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_FatuusSummoner": {
-        "bg": "Gcg_CardFace_Char_Monster_FatuusSummoner_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_FatuusSummoner_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_FatuusSummoner_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Monster_Fungusgrass": {
-        "bg": "Gcg_CardFace_Char_Monster_Fungusgrass_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Fungusgrass_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Fungusgrass_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_GatorSacred": {
-        "bg": "Gcg_CardFace_Char_Monster_GatorSacred_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_GatorSacred_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_GatorSacred_Sub_Spine",
             "Gcg_CardFace_Char_Monster_GatorSacred_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Monster_HermitCrabPrimo": {
-        "bg": "Gcg_CardFace_Char_Monster_HermitCrabPrimo_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_HermitCrabPrimo_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_HermitCrabPrimo_Sub_Spine",
             "Gcg_CardFace_Char_Monster_HermitCrabPrimo_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Monster_HilistrayWater": {
-        "bg": "Gcg_CardFace_Char_Monster_HilistrayWater_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_HilistrayWater_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_HilistrayWater_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_HookwalkerPrimo": {
-        "bg": "Gcg_CardFace_Char_Monster_HookwalkerPrimo_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_HookwalkerPrimo_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_HookwalkerPrimo_Sub_Spine",
             "Gcg_CardFace_Char_Monster_HookwalkerPrimo_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Monster_InvokerElectric": {
-        "bg": "Gcg_CardFace_Char_Monster_InvokerElectric_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_InvokerElectric_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_InvokerElectric_Sub_Spine",
             "Gcg_CardFace_Char_Monster_InvokerElectric_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Monster_InvokerHeraldWater": {
-        "bg": "Gcg_CardFace_Char_Monster_InvokerHeraldWater_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_InvokerHeraldWater_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_InvokerHeraldWater_Sub_Spine",
             "Gcg_CardFace_Char_Monster_InvokerHeraldWater_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_LaSignora": {
-        "bg": "Gcg_CardFace_Char_Monster_LaSignora_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_LaSignora_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_LaSignora_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_LaSignoraHarbinger": {
-        "bg": "Gcg_CardFace_Char_Monster_LaSignoraHarbinger_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_LaSignoraHarbinger_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_LaSignoraHarbinger_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Monster_Maidenwater": {
-        "bg": "Gcg_CardFace_Char_Monster_Maidenwater_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Maidenwater_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Maidenwater_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Muscleman": {
-        "bg": "Gcg_CardFace_Char_Monster_Muscleman_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Muscleman_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Muscleman_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Monster_Narcissusborn": {
-        "bg": "Gcg_CardFace_Char_Monster_Narcissusborn_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Narcissusborn_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Narcissusborn_Sub_Spine",
             "Gcg_CardFace_Char_Monster_Narcissusborn_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0
     },
     "Monster_Ningyo": {
-        "bg": "Gcg_CardFace_Char_Monster_Ningyo_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Ningyo_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Ningyo_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.1
     },
     "Monster_Oceanid": {
-        "bg": "Gcg_CardFace_Char_Monster_Oceanid_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Oceanid_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Oceanid_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Planelurker": {
-        "bg": "Gcg_CardFace_Char_Monster_Planelurker_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Planelurker_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Planelurker_Sub_Spine",
             "Gcg_CardFace_Char_Monster_Planelurker_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Ptahur": {
-        "bg": "Gcg_CardFace_Char_Monster_Ptahur_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Ptahur_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Ptahur_Sub_Spine",
             "Gcg_CardFace_Char_Monster_Ptahur_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Raijin": {
-        "bg": "Gcg_CardFace_Char_Monster_Raijin_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_Raijin_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_Raijin_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_ScorpionSacred": {
-        "bg": "Gcg_CardFace_Char_Monster_ScorpionSacred_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_ScorpionSacred_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_ScorpionSacred_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_SeaHorsePrimo": {
-        "bg": "Gcg_CardFace_Char_Monster_SeaHorsePrimo_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_SeaHorsePrimo_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_SeaHorsePrimo_Spine"
         ],
-        "btn": {}
+        "btn": {},
+        "mix": 0.2
     }
 };
 export default characterList;
