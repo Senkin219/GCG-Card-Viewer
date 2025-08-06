@@ -10,6 +10,10 @@ onMounted(() => {
     let aspectRatio = windowwidth / windowheight;
     let container = document.getElementById("container");
     let scale = 1;
+    if (cards.offsetHeight == 0) {
+      setTimeout(watchWindowSize, 100);
+      return
+    }
     if (aspectRatio < 1) {
       scale = 0.6 * windowwidth / cards.offsetHeight;
       container.style.transform = "rotate(90deg)";

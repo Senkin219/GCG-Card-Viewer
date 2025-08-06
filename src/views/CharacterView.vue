@@ -8,6 +8,10 @@ onMounted(() => {
     let windowheight = document.documentElement.clientHeight;
     let container = document.getElementById("container");
     let scale = 1;
+    if (cards.offsetHeight == 0) {
+      setTimeout(watchWindowSize, 100);
+      return
+    }
     scale = 0.7 * windowheight / cards.offsetHeight;
     container.style.transform = "rotate(0deg)";
     container.style.height = "100vh";
