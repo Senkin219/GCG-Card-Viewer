@@ -10,7 +10,7 @@ function getCharacterData(characterFolder) {
     let spine = [];
 
     files.forEach(file => {
-        if (file.endsWith('_Bg.png')) {
+        if (file.endsWith('_Bg.png') || file.endsWith('_Bg.webp')) {
             bg = file;
         }
         if (file.endsWith('.skel')) {
