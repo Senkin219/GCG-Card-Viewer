@@ -33,7 +33,7 @@ const translations = {
     viewButton: "查看",
     randomButton: "随机选择",
     characterGroupLabel: "角色",
-    enemyGroupLabel: "敌人",
+    enemyGroupLabel: "敌人与魔物",
   },
   en: {
     filterPlaceholder: "Filter",
@@ -41,7 +41,7 @@ const translations = {
     viewButton: "View",
     randomButton: "Random Select",
     characterGroupLabel: "Characters",
-    enemyGroupLabel: "Enemies",
+    enemyGroupLabel: "Enemies and Monsters",
   }
 };
 
