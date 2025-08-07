@@ -66,6 +66,9 @@ const tags = {
     "GCG_TAG_CAMP_SACREAD": "圣骸兽",
     "GCG_TAG_CAMP_KAIRAGI": "海乱鬼",
     "TAG_其他所属": "其他所属"
+  },
+  "萝莉": {
+    "TAG_LOLI": "萝莉"
   }
 };
 
@@ -101,7 +104,11 @@ const tagsEn = {
     "GCG_TAG_CAMP_EREMITE": "The Eremites",
     "GCG_TAG_CAMP_SACREAD": "Consecrated Beast",
     "GCG_TAG_CAMP_KAIRAGI": "Kairagi",
-    "TAG_其他所属": "Other Affiliations" }
+    "TAG_其他所属": "Other Affiliations"
+  },
+  "Loli": {
+    "TAG_LOLI": "Loli"
+  }
 };
 
 const currentTags = computed(() => language.value === 'en' ? tagsEn : tags);
@@ -171,6 +178,10 @@ allCharacters.forEach(char => {
   if (!hasAffiliation) {
     char.tags.push('TAG_其他所属');
   }
+  const loliIds = [1102, 1108, 1213, 1306, 1410, 1414, 1507, 1610, 1703, 1704];
+  if (loliIds.includes(char.id)){
+    char.tags.push('TAG_LOLI');
+  }
 });
 
 const allAvailableTags = new Set(allCharacters.flatMap(char => char.tags));
@@ -206,11 +217,13 @@ const filteredCharacters = computed(() => {
     [groupKeys[0]]: [],
     [groupKeys[1]]: [],
     [groupKeys[2]]: [],
+    [groupKeys[3]]: [],
   };
   activeFilterTags.value.forEach(tag => {
     if (currentTags.value[groupKeys[0]][tag]) groupedFilters[groupKeys[0]].push(tag);
     else if (currentTags.value[groupKeys[1]][tag]) groupedFilters[groupKeys[1]].push(tag);
     else if (currentTags.value[groupKeys[2]][tag]) groupedFilters[groupKeys[2]].push(tag);
+    else if (currentTags.value[groupKeys[3]][tag]) groupedFilters[groupKeys[3]].push(tag);
   });
   const isAffiliationSelected = groupedFilters[groupKeys[2]].length > 0;
   return allCharacters.filter(char => {
