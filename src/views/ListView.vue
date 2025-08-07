@@ -295,7 +295,7 @@ watch(filteredCharacters, (newCharacterList) => {
         v-model="selectedCharacter" 
         :placeholder="t.characterPlaceholder"
         clearable 
-        :filterable="!isMobile"
+        :filterable="!isMobile && filterSelection.length === 0"
         size="large" 
         style="width: 240px;"
       >
