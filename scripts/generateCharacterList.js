@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 const resourcesDir = path.join('public', 'resources');
-const outputFile = path.join('src', 'components', 'CharacterList.js');
+const outputFile1 = path.join('src', 'components', 'CharacterList.json');
+const outputFile2 = path.join('src', 'components', 'CharacterInfo.json');
 
 // unofficial data
 const mixDurations = {
@@ -53,7 +54,7 @@ const mixDurations = {
     'Monster_Muscleman': 0,
     'Monster_Narcissusborn': 0,
     'Monster_Ningyo': 0.1
-}
+};
 
 function getCharacterData(characterFolder) {
     const files = fs.readdirSync(characterFolder);
@@ -101,11 +102,19 @@ function generateList() {
     return charList;
 }
 
-function writeToFile(obj) {
-    const content = `const characterList = ${JSON.stringify(obj, null, 4)};\nexport default characterList;\n`;
+function writeToFile(obj, outputFile) {
+    const content = JSON.stringify(obj, null, 4);
     fs.writeFileSync(outputFile, content, 'utf8');
-    console.log('CharacterList.js generated!');
+}
+
+async function updateCharacterInfo() {
+    const res = await fetch("https://raw.githubusercontent.com/genius-invokation/genius-invokation/refs/heads/main/packages/static-data/src/data/characters.json");
+    const data = await res.json();
+    writeToFile(data, outputFile2);
 }
 
 const list = generateList();
-writeToFile(list);
+writeToFile(list, outputFile1);
+updateCharacterInfo().catch(err => {
+    console.error("Update CharacterInfo.json failed:", err);
+});

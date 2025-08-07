@@ -1,4 +1,4 @@
-const characterList = {
+{
     "Avatar_Albedo": {
         "bg": "Gcg_CardFace_Char_Avatar_Albedo_Spine_Bg.webp",
         "spine": [
@@ -1092,5 +1092,4 @@ const characterList = {
         "btn": {},
         "mix": 0.2
     }
-};
-export default characterList;
+}

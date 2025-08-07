@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted } from "vue";
-import characterList from "./CharacterList"
+import characterList from "./CharacterList.json";
 import spine from "../assets/spine-player.js";
 import "../assets/spine-player.css"
 
