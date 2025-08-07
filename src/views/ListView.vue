@@ -14,11 +14,24 @@ function changepage() {
   window.location.href = import.meta.env.BASE_URL + selectedCharacter.value;
 }
 
+function handleButtonClick() {
+  if (selectedCharacter.value) {
+    changepage();
+  } else {
+    const characters = filteredCharacters.value;
+    if (characters.length > 0) {
+      const randomIndex = Math.floor(Math.random() * characters.length);
+      selectedCharacter.value = characters[randomIndex].listKey;
+    }
+  }
+}
+
 const translations = {
   zh: {
     filterPlaceholder: "筛选",
     characterPlaceholder: "选择角色",
     viewButton: "查看",
+    randomButton: "随机选择",
     characterGroupLabel: "角色",
     enemyGroupLabel: "敌人",
   },
@@ -26,6 +39,7 @@ const translations = {
     filterPlaceholder: "Filter",
     characterPlaceholder: "Select Character",
     viewButton: "View",
+    randomButton: "Random Select",
     characterGroupLabel: "Characters",
     enemyGroupLabel: "Enemies",
   }
@@ -304,10 +318,11 @@ watch(filteredCharacters, (newCharacterList) => {
       <el-button 
         type="primary" 
         size="large" 
-        :disabled="selectedCharacter === ''" 
-        @click="changepage"
+        :disabled="filteredCharacters.length === 0" 
+        @click="handleButtonClick"
+        :style="language === 'en' ? 'width: 120px;' : 'width: 80px;'"
       >
-        {{ t.viewButton }}
+        {{ selectedCharacter ? t.viewButton : t.randomButton }}
       </el-button>
     </div>
   </div>
