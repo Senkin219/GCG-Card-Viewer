@@ -40,6 +40,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  touch-action: manipulation;
 }
 
 #container {
@@ -51,6 +52,7 @@ body {
   height: 100vh;
   width: 100vw;
   transform-origin: center;
+  overflow: hidden;
 }
 
 #cards {

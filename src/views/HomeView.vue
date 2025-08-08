@@ -19,11 +19,13 @@ onMounted(() => {
       container.style.transform = "rotate(90deg)";
       container.style.height = "100vw";
       container.style.width = "100vh";
+      container.style.overflow = "visible";
     } else {
       scale = 0.6 * windowheight / cards.offsetHeight;
       container.style.transform = "rotate(0deg)";
       container.style.height = "100vh";
       container.style.width = "100vw";
+      container.style.overflow = "hidden";
     }
     cards.style.transform = `scale(${scale})`;
   }
@@ -51,6 +53,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  touch-action: manipulation;
 }
 
 #container {
@@ -62,6 +65,7 @@ body {
   height: 100vh;
   width: 100vw;
   transform-origin: center;
+  overflow: hidden;
 }
 
 #cards {

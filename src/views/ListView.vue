@@ -349,6 +349,7 @@ body {
   height: 100vh;
   width: 100vw;
   transform-origin: center;
+  overflow: hidden;
 }
 
 #cards {
