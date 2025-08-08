@@ -21,10 +21,6 @@ export default defineConfig({
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'spine-model-cache',
-              expiration: {
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 365
-              },
               cacheableResponse: {
                 statuses: [0, 200]
               }
