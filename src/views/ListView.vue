@@ -329,17 +329,6 @@ watch(filteredCharacters, (newCharacterList) => {
 </template>
 
 <style scoped>
-body {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  touch-action: manipulation;
-}
-
 #container {
   background-image: url(../assets/background.png);
   background-size: cover;
