@@ -15,6 +15,8 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,jpg,jpeg,gif}'],
         globIgnores: ['resources/**'],
+        navigateFallback: 'index.html',
+        navigateFallbackDenylist: [/^\/resources\//],
         runtimeCaching: [
           {
             urlPattern: /\/resources\/.*\.(atlas|skel|json|png|webp)$/,
