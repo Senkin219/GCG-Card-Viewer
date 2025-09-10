@@ -26,10 +26,12 @@ const mixDurations = {
     'Avatar_Furina': 0,
     'Avatar_FurinaOusia': 0,
     'Avatar_Gorou': 0,
+    'Avatar_Iansan': 0,
     'Avatar_Kaveh': 0,
     'Avatar_Kinich': 0,
     'Avatar_Kokomi': 0.1,
     'Avatar_Lanyan': 0,
+    'Avatar_Mizuki': 0,
     'Avatar_Momoka': 0.05,
     'Avatar_Mona': 0,
     'Avatar_Mualani': 0,
@@ -53,7 +55,8 @@ const mixDurations = {
     'Monster_LaSignoraHarbinger': 0,
     'Monster_Muscleman': 0,
     'Monster_Narcissusborn': 0,
-    'Monster_Ningyo': 0.1
+    'Monster_Ningyo': 0.1,
+    'Monster_TheAbyssXiuhcoatl': 0.03
 };
 
 function getCharacterData(characterFolder) {

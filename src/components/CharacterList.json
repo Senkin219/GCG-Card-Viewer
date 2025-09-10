@@ -326,6 +326,15 @@
         "btn": {},
         "mix": 0.2
     },
+    "Avatar_Iansan": {
+        "bg": "Gcg_CardFace_Char_Avatar_Iansan_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Iansan_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_Iansan_Spine"
+        ],
+        "btn": {},
+        "mix": 0
+    },
     "Avatar_Itto": {
         "bg": "Gcg_CardFace_Char_Avatar_Itto_Spine_Bg.webp",
         "spine": [
@@ -472,6 +481,14 @@
         ],
         "btn": {},
         "mix": 0.2
+    },
+    "Avatar_Mizuki": {
+        "bg": "Gcg_CardFace_Char_Avatar_Mizuki_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Mizuki_Spine"
+        ],
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Momoka": {
         "bg": "Gcg_CardFace_Char_Avatar_Momoka_Spine_Bg.webp",
@@ -1091,5 +1108,16 @@
         ],
         "btn": {},
         "mix": 0.2
+    },
+    "Monster_TheAbyssXiuhcoatl": {
+        "bg": "Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl_Sub3_Spine",
+            "Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl_Sub2_Spine",
+            "Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl_Sub_Spine",
+            "Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl_Spine"
+        ],
+        "btn": {},
+        "mix": 0.03
     }
 }
