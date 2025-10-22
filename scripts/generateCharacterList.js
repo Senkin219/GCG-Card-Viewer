@@ -41,6 +41,7 @@ const mixDurations = {
     'Avatar_Qiqi': 0.1,
     'Avatar_Shougun': 0,
     'Avatar_Sigewinne': 0,
+    'Avatar_Varesa': 0,
     'Avatar_Wanderer': 0,
     'Avatar_Wanderer02': 0,
     'Avatar_Wriothesley': 0,
@@ -111,9 +112,10 @@ function writeToFile(obj, outputFile) {
 }
 
 async function updateCharacterInfo() {
-    const res = await fetch("https://raw.githubusercontent.com/genius-invokation/genius-invokation/refs/heads/main/packages/static-data/src/data/characters.json");
+    // const res = await fetch("https://raw.githubusercontent.com/genius-invokation/genius-invokation/refs/heads/main/packages/static-data/src/data/characters.json");
+    const res = await fetch("https://gi-tcg-assets-api-hf.guyutongxue.site/api/v4/data/latest/CHS/characters");
     const data = await res.json();
-    writeToFile(data, outputFile2);
+    writeToFile(data.data, outputFile2);
 }
 
 const list = generateList();

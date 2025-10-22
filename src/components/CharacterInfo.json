@@ -114,7 +114,8 @@
         "hp": 12,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Ganyu",
-        "icon": "UI_Gcg_Char_AvatarIcon_Ganyu"
+        "icon": "UI_Gcg_Char_AvatarIcon_Ganyu",
+        "category": "characters"
     },
     {
         "id": 1102,
@@ -209,7 +210,8 @@
         "hp": 12,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Diona",
-        "icon": "UI_Gcg_Char_AvatarIcon_Diona"
+        "icon": "UI_Gcg_Char_AvatarIcon_Diona",
+        "category": "characters"
     },
     {
         "id": 1103,
@@ -304,7 +306,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Kaeya",
-        "icon": "UI_Gcg_Char_AvatarIcon_Kaeya"
+        "icon": "UI_Gcg_Char_AvatarIcon_Kaeya",
+        "category": "characters"
     },
     {
         "id": 1104,
@@ -399,7 +402,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Chongyun",
-        "icon": "UI_Gcg_Char_AvatarIcon_Chongyun"
+        "icon": "UI_Gcg_Char_AvatarIcon_Chongyun",
+        "category": "characters"
     },
     {
         "id": 1105,
@@ -514,6 +518,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "Skill_S_Ayaka_02",
                 "iconHash": "16565744091224246055"
             }
@@ -521,7 +526,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Ayaka",
-        "icon": "UI_Gcg_Char_AvatarIcon_Ayaka"
+        "icon": "UI_Gcg_Char_AvatarIcon_Ayaka",
+        "category": "characters"
     },
     {
         "id": 1106,
@@ -616,7 +622,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Eula",
-        "icon": "UI_Gcg_Char_AvatarIcon_Eula"
+        "icon": "UI_Gcg_Char_AvatarIcon_Eula",
+        "category": "characters"
     },
     {
         "id": 1107,
@@ -711,7 +718,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Shenhe",
-        "icon": "UI_Gcg_Char_AvatarIcon_Shenhe"
+        "icon": "UI_Gcg_Char_AvatarIcon_Shenhe",
+        "category": "characters"
     },
     {
         "id": 1108,
@@ -769,6 +777,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Qiqi_01",
                 "iconHash": "6148151924580648348"
             },
@@ -802,7 +811,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Qiqi",
-        "icon": "UI_Gcg_Char_AvatarIcon_Qiqi"
+        "icon": "UI_Gcg_Char_AvatarIcon_Qiqi",
+        "category": "characters"
     },
     {
         "id": 1109,
@@ -894,7 +904,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Layla",
-        "icon": "UI_Gcg_Char_AvatarIcon_Layla"
+        "icon": "UI_Gcg_Char_AvatarIcon_Layla",
+        "category": "characters"
     },
     {
         "id": 1110,
@@ -990,7 +1001,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Charlotte",
-        "icon": "UI_Gcg_Char_AvatarIcon_Charlotte"
+        "icon": "UI_Gcg_Char_AvatarIcon_Charlotte",
+        "category": "characters"
     },
     {
         "id": 1111,
@@ -1114,6 +1126,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "Skill_E_Wriothesley_01_HD",
                 "iconHash": "1338630693223503108"
             }
@@ -1121,7 +1134,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Wriothesley",
-        "icon": "UI_Gcg_Char_AvatarIcon_Wriothesley"
+        "icon": "UI_Gcg_Char_AvatarIcon_Wriothesley",
+        "category": "characters"
     },
     {
         "id": 1112,
@@ -1218,7 +1232,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Freminet",
-        "icon": "UI_Gcg_Char_AvatarIcon_Freminet"
+        "icon": "UI_Gcg_Char_AvatarIcon_Freminet",
+        "category": "characters"
     },
     {
         "id": 1113,
@@ -1313,7 +1328,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Rosaria",
-        "icon": "UI_Gcg_Char_AvatarIcon_Rosaria"
+        "icon": "UI_Gcg_Char_AvatarIcon_Rosaria",
+        "category": "characters"
     },
     {
         "id": 1114,
@@ -1422,7 +1438,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Citlali",
-        "icon": "UI_Gcg_Char_AvatarIcon_Citlali"
+        "icon": "UI_Gcg_Char_AvatarIcon_Citlali",
+        "category": "characters"
     },
     {
         "id": 1201,
@@ -1514,7 +1531,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Barbara",
-        "icon": "UI_Gcg_Char_AvatarIcon_Barbara"
+        "icon": "UI_Gcg_Char_AvatarIcon_Barbara",
+        "category": "characters"
     },
     {
         "id": 1202,
@@ -1609,7 +1627,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Xingqiu",
-        "icon": "UI_Gcg_Char_AvatarIcon_Xingqiu"
+        "icon": "UI_Gcg_Char_AvatarIcon_Xingqiu",
+        "category": "characters"
     },
     {
         "id": 1203,
@@ -1718,7 +1737,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Mona",
-        "icon": "UI_Gcg_Char_AvatarIcon_Mona"
+        "icon": "UI_Gcg_Char_AvatarIcon_Mona",
+        "category": "characters"
     },
     {
         "id": 1204,
@@ -1848,6 +1868,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "Skill_S_Tartaglia_02",
                 "iconHash": "6940921795195491126"
             }
@@ -1855,7 +1876,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Tartaglia",
-        "icon": "UI_Gcg_Char_AvatarIcon_Tartaglia"
+        "icon": "UI_Gcg_Char_AvatarIcon_Tartaglia",
+        "category": "characters"
     },
     {
         "id": 1205,
@@ -1949,7 +1971,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Kokomi",
-        "icon": "UI_Gcg_Char_AvatarIcon_Kokomi"
+        "icon": "UI_Gcg_Char_AvatarIcon_Kokomi",
+        "category": "characters"
     },
     {
         "id": 1206,
@@ -2044,7 +2067,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Ayato",
-        "icon": "UI_Gcg_Char_AvatarIcon_Ayato"
+        "icon": "UI_Gcg_Char_AvatarIcon_Ayato",
+        "category": "characters"
     },
     {
         "id": 1207,
@@ -2102,6 +2126,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Candace_01",
                 "iconHash": "10816412002654072337"
             },
@@ -2152,7 +2177,8 @@
         "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Candace",
-        "icon": "UI_Gcg_Char_AvatarIcon_Candace"
+        "icon": "UI_Gcg_Char_AvatarIcon_Candace",
+        "category": "characters"
     },
     {
         "id": 1208,
@@ -2247,7 +2273,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Nilou",
-        "icon": "UI_Gcg_Char_AvatarIcon_Nilou"
+        "icon": "UI_Gcg_Char_AvatarIcon_Nilou",
+        "category": "characters"
     },
     {
         "id": 1209,
@@ -2356,7 +2383,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Yelan",
-        "icon": "UI_Gcg_Char_AvatarIcon_Yelan"
+        "icon": "UI_Gcg_Char_AvatarIcon_Yelan",
+        "category": "characters"
     },
     {
         "id": 1210,
@@ -2483,7 +2511,8 @@
         "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Neuvillette",
-        "icon": "UI_Gcg_Char_AvatarIcon_Neuvillette"
+        "icon": "UI_Gcg_Char_AvatarIcon_Neuvillette",
+        "category": "characters"
     },
     {
         "id": 1211,
@@ -2542,6 +2571,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Furina_01",
                 "iconHash": "7602905369558835082"
             },
@@ -2595,6 +2625,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Furina_03",
                 "iconHash": "7720131026093354059"
             }
@@ -2602,7 +2633,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Furina",
-        "icon": "UI_Gcg_Char_AvatarIcon_Furina"
+        "icon": "UI_Gcg_Char_AvatarIcon_Furina",
+        "category": "characters"
     },
     {
         "id": 1212,
@@ -2658,6 +2690,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Furina_02",
                 "iconHash": "8862547111379454070"
             },
@@ -2711,6 +2744,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Furina_03",
                 "iconHash": "7720131026093354059"
             }
@@ -2718,7 +2752,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_FurinaOusia",
-        "icon": "UI_Gcg_Char_AvatarIcon_FurinaOusia"
+        "icon": "UI_Gcg_Char_AvatarIcon_FurinaOusia",
+        "category": "characters"
     },
     {
         "id": 1213,
@@ -2786,6 +2821,7 @@
                     }
                 ],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Sigewinne_01",
                 "iconHash": "3421278481920319996"
             },
@@ -2825,6 +2861,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Sigewinne_02",
                 "iconHash": "4056721756811131458"
             },
@@ -2846,19 +2883,6 @@
                 "iconHash": "2801743251526669545"
             },
             {
-                "id": 12136,
-                "name": "细致入微的诊疗",
-                "englishName": "Detailed Diagnosis, Thorough Treatment",
-                "type": "GCG_SKILL_TAG_PASSIVE",
-                "rawDescription": "",
-                "description": "",
-                "playCost": [],
-                "targetList": [],
-                "hidden": true,
-                "icon": "Skill_E_Sigewinne_01",
-                "iconHash": "5392205027049196892"
-            },
-            {
                 "id": 12137,
                 "name": "细致入微的诊疗",
                 "englishName": "Detailed Diagnosis, Thorough Treatment",
@@ -2876,7 +2900,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Sigewinne",
-        "icon": "UI_Gcg_Char_AvatarIcon_Sigewinne"
+        "icon": "UI_Gcg_Char_AvatarIcon_Sigewinne",
+        "category": "characters"
     },
     {
         "id": 1214,
@@ -2977,7 +3002,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Mualani",
-        "icon": "UI_Gcg_Char_AvatarIcon_Mualani"
+        "icon": "UI_Gcg_Char_AvatarIcon_Mualani",
+        "category": "characters"
     },
     {
         "id": 1301,
@@ -3072,7 +3098,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Diluc",
-        "icon": "UI_Gcg_Char_AvatarIcon_Diluc"
+        "icon": "UI_Gcg_Char_AvatarIcon_Diluc",
+        "category": "characters"
     },
     {
         "id": 1302,
@@ -3167,7 +3194,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Xiangling",
-        "icon": "UI_Gcg_Char_AvatarIcon_Xiangling"
+        "icon": "UI_Gcg_Char_AvatarIcon_Xiangling",
+        "category": "characters"
     },
     {
         "id": 1303,
@@ -3262,7 +3290,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Bennett",
-        "icon": "UI_Gcg_Char_AvatarIcon_Bennett"
+        "icon": "UI_Gcg_Char_AvatarIcon_Bennett",
+        "category": "characters"
     },
     {
         "id": 1304,
@@ -3320,6 +3349,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Ambor_01",
                 "iconHash": "7471511897735271863"
             },
@@ -3353,7 +3383,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Ambor",
-        "icon": "UI_Gcg_Char_AvatarIcon_Amber"
+        "icon": "UI_Gcg_Char_AvatarIcon_Amber",
+        "category": "characters"
     },
     {
         "id": 1305,
@@ -3411,6 +3442,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Yoimiya_01",
                 "iconHash": "3619193121665378259"
             },
@@ -3444,7 +3476,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Yoimiya",
-        "icon": "UI_Gcg_Char_AvatarIcon_Yoimiya"
+        "icon": "UI_Gcg_Char_AvatarIcon_Yoimiya",
+        "category": "characters"
     },
     {
         "id": 1306,
@@ -3539,7 +3572,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Klee",
-        "icon": "UI_Gcg_Char_AvatarIcon_Klee"
+        "icon": "UI_Gcg_Char_AvatarIcon_Klee",
+        "category": "characters"
     },
     {
         "id": 1307,
@@ -3597,6 +3631,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Hutao_01",
                 "iconHash": "7566030842315271809"
             },
@@ -3630,7 +3665,8 @@
         "hp": 12,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Hutao",
-        "icon": "UI_Gcg_Char_AvatarIcon_Hutao"
+        "icon": "UI_Gcg_Char_AvatarIcon_Hutao",
+        "category": "characters"
     },
     {
         "id": 1308,
@@ -3725,7 +3761,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Feiyan",
-        "icon": "UI_Gcg_Char_AvatarIcon_Feiyan"
+        "icon": "UI_Gcg_Char_AvatarIcon_Feiyan",
+        "category": "characters"
     },
     {
         "id": 1309,
@@ -3854,7 +3891,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Dehya",
-        "icon": "UI_Gcg_Char_AvatarIcon_Dehya"
+        "icon": "UI_Gcg_Char_AvatarIcon_Dehya",
+        "category": "characters"
     },
     {
         "id": 1310,
@@ -3973,7 +4011,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Liney",
-        "icon": "UI_Gcg_Char_AvatarIcon_Liney"
+        "icon": "UI_Gcg_Char_AvatarIcon_Liney",
+        "category": "characters"
     },
     {
         "id": 1311,
@@ -4068,7 +4107,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Tohma",
-        "icon": "UI_Gcg_Char_AvatarIcon_Tohma"
+        "icon": "UI_Gcg_Char_AvatarIcon_Tohma",
+        "category": "characters"
     },
     {
         "id": 1312,
@@ -4163,7 +4203,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Xinyan",
-        "icon": "UI_Gcg_Char_AvatarIcon_Xinyan"
+        "icon": "UI_Gcg_Char_AvatarIcon_Xinyan",
+        "category": "characters"
     },
     {
         "id": 1313,
@@ -4290,7 +4331,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Chevreuse",
-        "icon": "UI_Gcg_Char_AvatarIcon_Chevreuse"
+        "icon": "UI_Gcg_Char_AvatarIcon_Chevreuse",
+        "category": "characters"
     },
     {
         "id": 1314,
@@ -4391,6 +4433,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Arlecchino_02",
                 "iconHash": "6381033373994177097"
             },
@@ -4418,6 +4461,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "Skill_S_Arlecchino_02",
                 "iconHash": "6381033373994177097"
             }
@@ -4425,7 +4469,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Arlecchino",
-        "icon": "UI_Gcg_Char_AvatarIcon_Arlecchino"
+        "icon": "UI_Gcg_Char_AvatarIcon_Arlecchino",
+        "category": "characters"
     },
     {
         "id": 1315,
@@ -4516,7 +4561,8 @@
                 "targetList": [],
                 "hidden": false,
                 "keyMap": {
-                    "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO"
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO",
+                    "D__KEY__DAMAGE": 0
                 },
                 "icon": "Skill_E_Mavuika_01_HD",
                 "iconHash": "16260796242927359789"
@@ -4545,6 +4591,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "Skill_S_Mavuika_02",
                 "iconHash": "4561666289799168597"
             }
@@ -4552,7 +4599,8 @@
         "hp": 10,
         "maxEnergy": 0,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Mavuika",
-        "icon": "UI_Gcg_Char_AvatarIcon_Mavuika"
+        "icon": "UI_Gcg_Char_AvatarIcon_Mavuika",
+        "category": "characters"
     },
     {
         "id": 1401,
@@ -4647,7 +4695,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Fischl",
-        "icon": "UI_Gcg_Char_AvatarIcon_Fischl"
+        "icon": "UI_Gcg_Char_AvatarIcon_Fischl",
+        "category": "characters"
     },
     {
         "id": 1402,
@@ -4742,7 +4791,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Razor",
-        "icon": "UI_Gcg_Char_AvatarIcon_Razor"
+        "icon": "UI_Gcg_Char_AvatarIcon_Razor",
+        "category": "characters"
     },
     {
         "id": 1403,
@@ -4837,7 +4887,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Keqing",
-        "icon": "UI_Gcg_Char_AvatarIcon_Keqing"
+        "icon": "UI_Gcg_Char_AvatarIcon_Keqing",
+        "category": "characters"
     },
     {
         "id": 1404,
@@ -4946,7 +4997,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Cyno",
-        "icon": "UI_Gcg_Char_AvatarIcon_Cyno"
+        "icon": "UI_Gcg_Char_AvatarIcon_Cyno",
+        "category": "characters"
     },
     {
         "id": 1405,
@@ -5058,7 +5110,8 @@
         "hp": 11,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Beidou",
-        "icon": "UI_Gcg_Char_AvatarIcon_Beidou"
+        "icon": "UI_Gcg_Char_AvatarIcon_Beidou",
+        "category": "characters"
     },
     {
         "id": 1406,
@@ -5153,7 +5206,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Sara",
-        "icon": "UI_Gcg_Char_AvatarIcon_Sara"
+        "icon": "UI_Gcg_Char_AvatarIcon_Sara",
+        "category": "characters"
     },
     {
         "id": 1407,
@@ -5211,6 +5265,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Shougun_01",
                 "iconHash": "16853262664677415749"
             },
@@ -5258,7 +5313,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Shougun",
-        "icon": "UI_Gcg_Char_AvatarIcon_Shougun"
+        "icon": "UI_Gcg_Char_AvatarIcon_Shougun",
+        "category": "characters"
     },
     {
         "id": 1408,
@@ -5350,7 +5406,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Yae",
-        "icon": "UI_Gcg_Char_AvatarIcon_Yae"
+        "icon": "UI_Gcg_Char_AvatarIcon_Yae",
+        "category": "characters"
     },
     {
         "id": 1409,
@@ -5445,7 +5502,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Lisa",
-        "icon": "UI_Gcg_Char_AvatarIcon_Lisa"
+        "icon": "UI_Gcg_Char_AvatarIcon_Lisa",
+        "category": "characters"
     },
     {
         "id": 1410,
@@ -5540,7 +5598,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Dori",
-        "icon": "UI_Gcg_Char_AvatarIcon_Dori"
+        "icon": "UI_Gcg_Char_AvatarIcon_Dori",
+        "category": "characters"
     },
     {
         "id": 1411,
@@ -5632,7 +5691,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Shinobu",
-        "icon": "UI_Gcg_Char_AvatarIcon_Shinobu"
+        "icon": "UI_Gcg_Char_AvatarIcon_Shinobu",
+        "category": "characters"
     },
     {
         "id": 1412,
@@ -5702,7 +5762,8 @@
                 "hidden": false,
                 "keyMap": {
                     "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
-                    "D__KEY__DAMAGE_4": 4
+                    "D__KEY__DAMAGE_4": 4,
+                    "D__KEY__DAMAGE": 0
                 },
                 "icon": "Skill_S_Clorinde_01",
                 "iconHash": "13440833150482089837"
@@ -5737,7 +5798,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Clorinde",
-        "icon": "UI_Gcg_Char_AvatarIcon_Clorinde"
+        "icon": "UI_Gcg_Char_AvatarIcon_Clorinde",
+        "category": "characters"
     },
     {
         "id": 1413,
@@ -5847,7 +5909,8 @@
         "hp": 10,
         "maxEnergy": 4,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Sethos",
-        "icon": "UI_Gcg_Char_AvatarIcon_Sethos"
+        "icon": "UI_Gcg_Char_AvatarIcon_Sethos",
+        "category": "characters"
     },
     {
         "id": 1414,
@@ -5984,7 +6047,136 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Iansan",
-        "icon": "UI_Gcg_Char_AvatarIcon_Iansan"
+        "icon": "UI_Gcg_Char_AvatarIcon_Iansan",
+        "category": "characters"
+    },
+    {
+        "id": 1415,
+        "shareId": 521,
+        "sinceVersion": "v6.1.0",
+        "obtainable": true,
+        "name": "瓦雷莎",
+        "englishName": "Varesa",
+        "tags": [
+            "GCG_TAG_ELEMENT_ELECTRO",
+            "GCG_TAG_WEAPON_CATALYST",
+            "GCG_TAG_NATION_NATLAN"
+        ],
+        "storyTitle": "悠暇豪劲·瓦雷莎",
+        "storyText": "谨守恬安，豪勇锐进。",
+        "skills": [
+            {
+                "id": 14151,
+                "name": "角力搏摔",
+                "englishName": "By the Horns",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。<color=#FFFFFFFF>此次技能为$[K52]时：</color>造成的伤害+1，自身进入<color=#FFFFFFFF>$[C114151]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>。",
+                "description": "造成1点雷元素伤害。此次技能为下落攻击时：造成的伤害+1，自身进入夜魂加持，并获得1点「夜魂值」。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
+                    "D__KEY__DAMAGE_2": 2,
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "Skill_A_Catalyst_MD",
+                "iconHash": "15584209743353740735"
+            },
+            {
+                "id": 14152,
+                "name": "夜虹逐跃",
+                "englishName": "Riding the Night-Rainbow",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，自身附属<color=#FFFFFFFF>$[C114154]</color>，进入<color=#FFFFFFFF>$[C114151]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>，然后我方切换到下一个角色。",
+                "description": "造成2点雷元素伤害，自身附属突驰烈进，进入夜魂加持，并获得1点「夜魂值」，然后我方切换到下一个角色。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_S_Varesa_01",
+                "iconHash": "5824436277371732486"
+            },
+            {
+                "id": 14153,
+                "name": "闪烈降临！",
+                "englishName": "Guardian Vent!",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，自身附属<color=#FFFFFFFF>$[C114152]</color>。",
+                "description": "造成3点雷元素伤害，自身附属极限驱动。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
+                    "D__KEY__DAMAGE": 3
+                },
+                "icon": "Skill_E_Varesa_01_HD",
+                "iconHash": "11953503531440636557"
+            },
+            {
+                "id": 14154,
+                "name": "连势，三重腾跃！",
+                "englishName": "Tag-Team Triple Jump!",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】<color=#FFFFFFFF><color=#FFFFFFFF>$[A1415]</color>使用技能后：</color>如果自身<color=#FFFFFFFF>「夜魂值」</color>等于2，则消耗2点<color=#FFFFFFFF>「夜魂值」</color>，自身附属<color=#FFFFFFFF>$[C114152]</color>。",
+                "description": "【被动】瓦雷莎使用技能后：如果自身「夜魂值」等于2，则消耗2点「夜魂值」，自身附属极限驱动。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "UI_Talent_S_Varesa_05",
+                "iconHash": "5439356546458643014"
+            },
+            {
+                "id": 14155,
+                "name": "闪烈降临·大火山崩落",
+                "englishName": "Guardian Vent: Volcano Kablam",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，此技能视为$[K52]。",
+                "description": "造成2点雷元素伤害，此技能视为下落攻击。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_E_Varesa_01_HD",
+                "iconHash": "11953503531440636557"
+            }
+        ],
+        "hp": 10,
+        "maxEnergy": 3,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_Varesa",
+        "icon": "UI_Gcg_Char_AvatarIcon_Varesa",
+        "category": "characters"
     },
     {
         "id": 1501,
@@ -6079,7 +6271,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Sucrose",
-        "icon": "UI_Gcg_Char_AvatarIcon_Sucrose"
+        "icon": "UI_Gcg_Char_AvatarIcon_Sucrose",
+        "category": "characters"
     },
     {
         "id": 1502,
@@ -6171,7 +6364,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Qin",
-        "icon": "UI_Gcg_Char_AvatarIcon_Qin"
+        "icon": "UI_Gcg_Char_AvatarIcon_Qin",
+        "category": "characters"
     },
     {
         "id": 1503,
@@ -6266,7 +6460,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Venti",
-        "icon": "UI_Gcg_Char_AvatarIcon_Venti"
+        "icon": "UI_Gcg_Char_AvatarIcon_Venti",
+        "category": "characters"
     },
     {
         "id": 1504,
@@ -6361,7 +6556,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Xiao",
-        "icon": "UI_Gcg_Char_AvatarIcon_Xiao"
+        "icon": "UI_Gcg_Char_AvatarIcon_Xiao",
+        "category": "characters"
     },
     {
         "id": 1505,
@@ -6462,6 +6658,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "Skill_S_Kazuha_01",
                 "iconHash": "7890846414289916675"
             }
@@ -6469,7 +6666,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Kazuha",
-        "icon": "UI_Gcg_Char_AvatarIcon_Kazuha"
+        "icon": "UI_Gcg_Char_AvatarIcon_Kazuha",
+        "category": "characters"
     },
     {
         "id": 1506,
@@ -6563,7 +6761,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Wanderer",
-        "icon": "UI_Gcg_Char_AvatarIcon_Wanderer"
+        "icon": "UI_Gcg_Char_AvatarIcon_Wanderer",
+        "category": "characters"
     },
     {
         "id": 1507,
@@ -6675,7 +6874,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Sayu",
-        "icon": "UI_Gcg_Char_AvatarIcon_Sayu"
+        "icon": "UI_Gcg_Char_AvatarIcon_Sayu",
+        "category": "characters"
     },
     {
         "id": 1508,
@@ -6772,7 +6972,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Linette",
-        "icon": "UI_Gcg_Char_AvatarIcon_Linette"
+        "icon": "UI_Gcg_Char_AvatarIcon_Linette",
+        "category": "characters"
     },
     {
         "id": 1509,
@@ -6867,7 +7068,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Faruzan",
-        "icon": "UI_Gcg_Char_AvatarIcon_Faruzan"
+        "icon": "UI_Gcg_Char_AvatarIcon_Faruzan",
+        "category": "characters"
     },
     {
         "id": 1510,
@@ -6962,7 +7164,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Liuyun",
-        "icon": "UI_Gcg_Char_AvatarIcon_Liuyun"
+        "icon": "UI_Gcg_Char_AvatarIcon_Liuyun",
+        "category": "characters"
     },
     {
         "id": 1511,
@@ -7063,6 +7266,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Chasca_06",
                 "iconHash": "8258920847504292279"
             }
@@ -7070,7 +7274,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Chasca",
-        "icon": "UI_Gcg_Char_AvatarIcon_Chasca"
+        "icon": "UI_Gcg_Char_AvatarIcon_Chasca",
+        "category": "characters"
     },
     {
         "id": 1512,
@@ -7165,7 +7370,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Lanyan",
-        "icon": "UI_Gcg_Char_AvatarIcon_Lanyan"
+        "icon": "UI_Gcg_Char_AvatarIcon_Lanyan",
+        "category": "characters"
     },
     {
         "id": 1513,
@@ -7263,6 +7469,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Heizo_02",
                 "iconHash": "11282233737840629164"
             },
@@ -7288,7 +7495,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Heizo",
-        "icon": "UI_Gcg_Char_AvatarIcon_Heizo"
+        "icon": "UI_Gcg_Char_AvatarIcon_Heizo",
+        "category": "characters"
     },
     {
         "id": 1514,
@@ -7383,7 +7591,104 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Mizuki",
-        "icon": "UI_Gcg_Char_AvatarIcon_Mizuki"
+        "icon": "UI_Gcg_Char_AvatarIcon_Mizuki",
+        "category": "characters"
+    },
+    {
+        "id": 1515,
+        "shareId": 522,
+        "sinceVersion": "v6.1.0",
+        "obtainable": true,
+        "name": "伊法",
+        "englishName": "Ifa",
+        "tags": [
+            "GCG_TAG_ELEMENT_ANEMO",
+            "GCG_TAG_WEAPON_CATALYST",
+            "GCG_TAG_NATION_NATLAN"
+        ],
+        "storyTitle": "蔚风引灵·伊法",
+        "storyText": "急救如急袭。",
+        "skills": [
+            {
+                "id": 15151,
+                "name": "祛风妙仪",
+                "englishName": "Rite of Dispelling Winds",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成1点风元素伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ANEMO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ANEMO",
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "Skill_A_Catalyst_MD",
+                "iconHash": "15584209743353740735"
+            },
+            {
+                "id": 15152,
+                "name": "空天疾护",
+                "englishName": "Airborne Disease Prevention",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，自身进入<color=#FFFFFFFF>$[C115151]</color>，获得2点<color=#FFFFFFFF>「夜魂值」</color>，并附属<color=#FFFFFFFF>$[C115152]</color>。（角色进入<color=#FFFFFFFF>$[C115151]</color>后不可使用此技能）\\n（附属<color=#FFFFFFFF>$[C115152]</color>的角色可以使用特技：<color=#FFFFFFFF>$[S1151521]</color>）",
+                "description": "造成1点风元素伤害，自身进入夜魂加持，获得2点「夜魂值」，并附属咔库库。（角色进入夜魂加持后不可使用此技能）\n（附属咔库库的角色可以使用特技：援护射击）",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ANEMO",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ANEMO",
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "Skill_S_Ifa_01",
+                "iconHash": "7072371232855861824"
+            },
+            {
+                "id": 15153,
+                "name": "复合镇静域",
+                "englishName": "Compound Sedation Field",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，治疗我方受伤最多的角色2点。如果此技能引发了$[K215]，则敌方出战角色附属对应元素的$[K1038]。",
+                "description": "造成2点风元素伤害，治疗我方受伤最多的角色2点。如果此技能引发了风元素相关反应，则敌方出战角色附属对应元素的镇静标记。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ANEMO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ANEMO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_E_Ifa_01_HD",
+                "iconHash": "17096345203948080219"
+            }
+        ],
+        "hp": 10,
+        "maxEnergy": 2,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_Ifa",
+        "icon": "UI_Gcg_Char_AvatarIcon_Ifa",
+        "category": "characters"
     },
     {
         "id": 1601,
@@ -7478,7 +7783,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Ningguang",
-        "icon": "UI_Gcg_Char_AvatarIcon_Ningguang"
+        "icon": "UI_Gcg_Char_AvatarIcon_Ningguang",
+        "category": "characters"
     },
     {
         "id": 1602,
@@ -7573,7 +7879,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Noel",
-        "icon": "UI_Gcg_Char_AvatarIcon_Noel"
+        "icon": "UI_Gcg_Char_AvatarIcon_Noel",
+        "category": "characters"
     },
     {
         "id": 1603,
@@ -7690,7 +7997,8 @@
         "hp": 12,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Zhongli",
-        "icon": "UI_Gcg_Char_AvatarIcon_Zhongli"
+        "icon": "UI_Gcg_Char_AvatarIcon_Zhongli",
+        "category": "characters"
     },
     {
         "id": 1604,
@@ -7748,6 +8056,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Albedo_01",
                 "iconHash": "15433122184758706126"
             },
@@ -7781,7 +8090,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Albedo",
-        "icon": "UI_Gcg_Char_AvatarIcon_ALbedo"
+        "icon": "UI_Gcg_Char_AvatarIcon_ALbedo",
+        "category": "characters"
     },
     {
         "id": 1605,
@@ -7876,7 +8186,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Itto",
-        "icon": "UI_Gcg_Char_AvatarIcon_Itto"
+        "icon": "UI_Gcg_Char_AvatarIcon_Itto",
+        "category": "characters"
     },
     {
         "id": 1606,
@@ -7971,7 +8282,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Gorou",
-        "icon": "UI_Gcg_Char_AvatarIcon_Gorou"
+        "icon": "UI_Gcg_Char_AvatarIcon_Gorou",
+        "category": "characters"
     },
     {
         "id": 1607,
@@ -8097,7 +8409,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Yunjin",
-        "icon": "UI_Gcg_Char_AvatarIcon_Yunjin"
+        "icon": "UI_Gcg_Char_AvatarIcon_Yunjin",
+        "category": "characters"
     },
     {
         "id": 1608,
@@ -8207,7 +8520,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Navia",
-        "icon": "UI_Gcg_Char_AvatarIcon_Navia"
+        "icon": "UI_Gcg_Char_AvatarIcon_Navia",
+        "category": "characters"
     },
     {
         "id": 1609,
@@ -8301,7 +8615,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Chiori",
-        "icon": "UI_Gcg_Char_AvatarIcon_Chiori"
+        "icon": "UI_Gcg_Char_AvatarIcon_Chiori",
+        "category": "characters"
     },
     {
         "id": 1610,
@@ -8368,6 +8683,7 @@
                     }
                 ],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Kachina_01",
                 "iconHash": "12768779412878521271"
             },
@@ -8401,7 +8717,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Kachina",
-        "icon": "UI_Gcg_Char_AvatarIcon_Kachina"
+        "icon": "UI_Gcg_Char_AvatarIcon_Kachina",
+        "category": "characters"
     },
     {
         "id": 1611,
@@ -8519,7 +8836,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Xilonen",
-        "icon": "UI_Gcg_Char_AvatarIcon_Xilonen"
+        "icon": "UI_Gcg_Char_AvatarIcon_Xilonen",
+        "category": "characters"
     },
     {
         "id": 1701,
@@ -8614,7 +8932,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Collei",
-        "icon": "UI_Gcg_Char_AvatarIcon_Collei"
+        "icon": "UI_Gcg_Char_AvatarIcon_Collei",
+        "category": "characters"
     },
     {
         "id": 1702,
@@ -8709,7 +9028,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Tighnari",
-        "icon": "UI_Gcg_Char_AvatarIcon_Tighnari"
+        "icon": "UI_Gcg_Char_AvatarIcon_Tighnari",
+        "category": "characters"
     },
     {
         "id": 1703,
@@ -8826,7 +9146,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Nahida",
-        "icon": "UI_Gcg_Char_AvatarIcon_Nahida"
+        "icon": "UI_Gcg_Char_AvatarIcon_Nahida",
+        "category": "characters"
     },
     {
         "id": 1704,
@@ -8884,6 +9205,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Yaoyao_01",
                 "iconHash": "3075437415952126295"
             },
@@ -8917,7 +9239,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Yaoyao",
-        "icon": "UI_Gcg_Char_AvatarIcon_Yaoyao"
+        "icon": "UI_Gcg_Char_AvatarIcon_Yaoyao",
+        "category": "characters"
     },
     {
         "id": 1705,
@@ -9001,6 +9324,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_E_Baizhuer_01_HD",
                 "iconHash": "10471598644398829471"
             }
@@ -9008,7 +9332,8 @@
         "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Baizhuer",
-        "icon": "UI_Gcg_Char_AvatarIcon_Baizhuer"
+        "icon": "UI_Gcg_Char_AvatarIcon_Baizhuer",
+        "category": "characters"
     },
     {
         "id": 1706,
@@ -9103,7 +9428,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Alhatham",
-        "icon": "UI_Gcg_Char_AvatarIcon_Alhatham"
+        "icon": "UI_Gcg_Char_AvatarIcon_Alhatham",
+        "category": "characters"
     },
     {
         "id": 1707,
@@ -9161,6 +9487,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "Skill_S_Momoka_01",
                 "iconHash": "14225654896761842964"
             },
@@ -9194,7 +9521,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Momoka",
-        "icon": "UI_Gcg_Char_AvatarIcon_Momoka"
+        "icon": "UI_Gcg_Char_AvatarIcon_Momoka",
+        "category": "characters"
     },
     {
         "id": 1708,
@@ -9289,7 +9617,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Kaveh",
-        "icon": "UI_Gcg_Char_AvatarIcon_Kaveh"
+        "icon": "UI_Gcg_Char_AvatarIcon_Kaveh",
+        "category": "characters"
     },
     {
         "id": 1709,
@@ -9404,7 +9733,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Kinich",
-        "icon": "UI_Gcg_Char_AvatarIcon_Kinich"
+        "icon": "UI_Gcg_Char_AvatarIcon_Kinich",
+        "category": "characters"
     },
     {
         "id": 1710,
@@ -9526,6 +9856,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "Skill_S_Emilie_02",
                 "iconHash": "15927452085008245232"
             }
@@ -9533,7 +9864,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Emilie",
-        "icon": "UI_Gcg_Char_AvatarIcon_Emilie"
+        "icon": "UI_Gcg_Char_AvatarIcon_Emilie",
+        "category": "characters"
     },
     {
         "id": 2101,
@@ -9628,7 +9960,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_FatuusMageice",
-        "icon": "UI_Gcg_Char_MonsterIcon_FatuusMageIce"
+        "icon": "UI_Gcg_Char_MonsterIcon_FatuusMageIce",
+        "category": "characters"
     },
     {
         "id": 2102,
@@ -9743,6 +10076,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_LaSignora_02",
                 "iconHash": "2122289062561771071"
             }
@@ -9750,7 +10084,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_LaSignora",
-        "icon": "UI_Gcg_Char_MonsterIcon_LaSignora"
+        "icon": "UI_Gcg_Char_MonsterIcon_LaSignora",
+        "category": "characters"
     },
     {
         "id": 2103,
@@ -9859,7 +10194,8 @@
         "hp": 8,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_EffigyIce",
-        "icon": "UI_Gcg_Char_MonsterIcon_EffigyIce"
+        "icon": "UI_Gcg_Char_MonsterIcon_EffigyIce",
+        "category": "characters"
     },
     {
         "id": 2104,
@@ -9968,7 +10304,8 @@
         "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_EscadronIce",
-        "icon": "UI_Gcg_Char_MonsterIcon_EscadronIce"
+        "icon": "UI_Gcg_Char_MonsterIcon_EscadronIce",
+        "category": "characters"
     },
     {
         "id": 2201,
@@ -10026,6 +10363,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_Oceanid_02",
                 "iconHash": "6703139098543699890"
             },
@@ -10044,6 +10382,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_Oceanid_01",
                 "iconHash": "11006419305558350769"
             },
@@ -10080,7 +10419,8 @@
         "hp": 11,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Oceanid",
-        "icon": "UI_Gcg_Char_MonsterIcon_Oceanid"
+        "icon": "UI_Gcg_Char_MonsterIcon_Oceanid",
+        "category": "characters"
     },
     {
         "id": 2202,
@@ -10175,7 +10515,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Maidenwater",
-        "icon": "UI_Gcg_Char_MonsterIcon_Maidenwater"
+        "icon": "UI_Gcg_Char_MonsterIcon_Maidenwater",
+        "category": "characters"
     },
     {
         "id": 2203,
@@ -10276,6 +10617,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_InvokerHeraldWater_02",
                 "iconHash": "12941897788615105101"
             },
@@ -10311,6 +10653,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_AbyssWater_02",
                 "iconHash": "10826038520558549778"
             },
@@ -10332,7 +10675,8 @@
         "hp": 6,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_InvokerHeraldWater",
-        "icon": "UI_Gcg_Char_MonsterIcon_InvokerHeraldWater"
+        "icon": "UI_Gcg_Char_MonsterIcon_InvokerHeraldWater",
+        "category": "characters"
     },
     {
         "id": 2204,
@@ -10444,7 +10788,8 @@
         "hp": 5,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Ptahur",
-        "icon": "UI_Gcg_Char_MonsterIcon_Ptahur"
+        "icon": "UI_Gcg_Char_MonsterIcon_Ptahur",
+        "category": "characters"
     },
     {
         "id": 2205,
@@ -10551,7 +10896,177 @@
         "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_HilistrayWater",
-        "icon": "UI_Gcg_Char_MonsterIcon_HilistrayWater"
+        "icon": "UI_Gcg_Char_MonsterIcon_HilistrayWater",
+        "category": "characters"
+    },
+    {
+        "id": 2206,
+        "shareId": 523,
+        "sinceVersion": "v6.1.0",
+        "obtainable": true,
+        "name": "水形幻人",
+        "englishName": "Hydro Tulpa",
+        "tags": [
+            "GCG_TAG_ELEMENT_HYDRO",
+            "GCG_TAG_WEAPON_NONE",
+            "GCG_TAG_CAMP_MONSTER"
+        ],
+        "storyTitle": "苏醒的生命·水形幻人",
+        "storyText": "由无数的水滴凝聚成的，初具人形的魔物。",
+        "skills": [
+            {
+                "id": 22061,
+                "name": "涌浪",
+                "englishName": "Savage Swell",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成1点水元素伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_HYDRO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_HYDRO",
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "Skill_A_Catalyst_MD",
+                "iconHash": "15584209743353740735"
+            },
+            {
+                "id": 22062,
+                "name": "汛波",
+                "englishName": "Storm Surge",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，随机触发我方1个「召唤物」的「结束阶段」效果。如果自身生命值不低于2，则自身受到1点<color=#FFFFFFFF>$[K5]</color>。",
+                "description": "造成2点水元素伤害，随机触发我方1个「召唤物」的「结束阶段」效果。如果自身生命值不低于2，则自身受到1点穿透伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_HYDRO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_HYDRO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "MonsterSkill_S_Narcissusborn_01",
+                "iconHash": "9064081339419196666"
+            },
+            {
+                "id": 22063,
+                "name": "洪啸",
+                "englishName": "Thundering Tide",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，触发我方所有「召唤物」的「结束阶段」效果。",
+                "description": "造成4点水元素伤害，触发我方所有「召唤物」的「结束阶段」效果。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_HYDRO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_HYDRO",
+                    "D__KEY__DAMAGE": 4
+                },
+                "icon": "MonsterSkill_E_Narcissusborn_01_HD",
+                "iconHash": "421517890308362403"
+            },
+            {
+                "id": 22064,
+                "name": "分流",
+                "englishName": "Branching Flow",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "<color=#FFFFFFFF>自身生命值不低于3，我方$[C122061]以外的「召唤物」离场时：</color>自身受到2点<color=#FFFFFFFF>$[K5]</color>，召唤1个独立的<color=#FFFFFFFF>$[C122061]</color>。（每回合1次）",
+                "description": "自身生命值不低于3，我方半幻人以外的「召唤物」离场时：自身受到2点穿透伤害，召唤1个独立的半幻人。（每回合1次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC"
+                },
+                "icon": "MonsterSkill_S_Narcissusborn_02",
+                "iconHash": "11836368483370031775"
+            },
+            {
+                "id": 22065,
+                "name": "汛波",
+                "englishName": "Storm Surge",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，随机触发我方1个「召唤物」的「结束阶段」效果。如果自身生命值不低于2，则自身受到1点<color=#FFFFFFFF>$[K5]</color>。",
+                "description": "造成2点水元素伤害，随机触发我方1个「召唤物」的「结束阶段」效果。如果自身生命值不低于2，则自身受到1点穿透伤害。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_HYDRO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "MonsterSkill_S_Narcissusborn_01",
+                "iconHash": "9064081339419196666"
+            },
+            {
+                "id": 22066,
+                "name": "汛波",
+                "englishName": "Storm Surge",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，随机触发我方1个「召唤物」的「结束阶段」效果。如果自身生命值不低于2，则自身受到1点<color=#FFFFFFFF>$[K5]</color>。",
+                "description": "造成D__KEY__DAMAGE点D__KEY__ELEMENT，随机触发我方1个「召唤物」的「结束阶段」效果。如果自身生命值不低于2，则自身受到1点穿透伤害。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {},
+                "icon": "MonsterSkill_S_Narcissusborn_01",
+                "iconHash": "9064081339419196666"
+            },
+            {
+                "id": 22067,
+                "name": "洪啸",
+                "englishName": "Thundering Tide",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，触发我方所有「召唤物」的「结束阶段」效果。",
+                "description": "造成D__KEY__DAMAGE点D__KEY__ELEMENT，触发我方所有「召唤物」的「结束阶段」效果。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "icon": "MonsterSkill_E_Narcissusborn_01_HD",
+                "iconHash": "421517890308362403"
+            },
+            {
+                "id": 22068,
+                "name": "洪啸",
+                "englishName": "Thundering Tide",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，触发我方所有「召唤物」的「结束阶段」效果。",
+                "description": "造成D__KEY__DAMAGE点D__KEY__ELEMENT，触发我方所有「召唤物」的「结束阶段」效果。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "icon": "MonsterSkill_E_Narcissusborn_01_HD",
+                "iconHash": "421517890308362403"
+            }
+        ],
+        "hp": 12,
+        "maxEnergy": 3,
+        "cardFace": "UI_Gcg_CardFace_Char_Monster_Narcissusborn",
+        "icon": "UI_Gcg_Char_MonsterIcon_Narcissusborn",
+        "category": "characters"
     },
     {
         "id": 2301,
@@ -10660,7 +11175,8 @@
         "hp": 9,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Fatuus",
-        "icon": "UI_Gcg_Char_MonsterIcon_Fatuus"
+        "icon": "UI_Gcg_Char_MonsterIcon_Fatuus",
+        "category": "characters"
     },
     {
         "id": 2302,
@@ -10783,7 +11299,8 @@
         "hp": 6,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_DeaconFire",
-        "icon": "UI_Gcg_Char_MonsterIcon_InvokerDeaconFire"
+        "icon": "UI_Gcg_Char_MonsterIcon_InvokerDeaconFire",
+        "category": "characters"
     },
     {
         "id": 2303,
@@ -10892,7 +11409,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Muscleman",
-        "icon": "UI_Gcg_Char_MonsterIcon_EremiteOracle"
+        "icon": "UI_Gcg_Char_MonsterIcon_EremiteOracle",
+        "category": "characters"
     },
     {
         "id": 2304,
@@ -10990,6 +11508,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_HermitCrabPrimo_02",
                 "iconHash": "11562842950561932300"
             },
@@ -11031,7 +11550,8 @@
         "hp": 5,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_HermitCrabPrimo",
-        "icon": "UI_Gcg_Char_MonsterIcon_HermitCrabPrimo"
+        "icon": "UI_Gcg_Char_MonsterIcon_HermitCrabPrimo",
+        "category": "characters"
     },
     {
         "id": 2305,
@@ -11145,6 +11665,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_TheAbyssXiuhcoatl_02",
                 "iconHash": "4969180162511325285"
             }
@@ -11152,7 +11673,8 @@
         "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl",
-        "icon": "UI_Gcg_Char_MonsterIcon_TheAbyssXiuhcoatl"
+        "icon": "UI_Gcg_Char_MonsterIcon_TheAbyssXiuhcoatl",
+        "category": "characters"
     },
     {
         "id": 2401,
@@ -11295,7 +11817,8 @@
         "hp": 8,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Effigyelectric",
-        "icon": "UI_Gcg_Char_MonsterIcon_EffigyElectric"
+        "icon": "UI_Gcg_Char_MonsterIcon_EffigyElectric",
+        "category": "characters"
     },
     {
         "id": 2402,
@@ -11404,7 +11927,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Raijin",
-        "icon": "UI_Gcg_Char_MonsterIcon_Raijin"
+        "icon": "UI_Gcg_Char_MonsterIcon_Raijin",
+        "category": "characters"
     },
     {
         "id": 2403,
@@ -11527,7 +12051,8 @@
         "hp": 8,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_SeaHorsePrimo",
-        "icon": "UI_Gcg_Char_MonsterIcon_SeaHorsePrimo"
+        "icon": "UI_Gcg_Char_MonsterIcon_SeaHorsePrimo",
+        "category": "characters"
     },
     {
         "id": 2404,
@@ -11585,6 +12110,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_FatuusSummoner_01",
                 "iconHash": "12257954990389515764"
             },
@@ -11635,7 +12161,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_FatuusSummoner",
-        "icon": "UI_Gcg_Char_MonsterIcon_FatuusSummoner"
+        "icon": "UI_Gcg_Char_MonsterIcon_FatuusSummoner",
+        "category": "characters"
     },
     {
         "id": 2405,
@@ -11737,6 +12264,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_ScorpionSacred_02",
                 "iconHash": "14697751907638889406"
             }
@@ -11744,7 +12272,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_ScorpionSacred",
-        "icon": "UI_Gcg_Char_MonsterIcon_ScorpionSacred"
+        "icon": "UI_Gcg_Char_MonsterIcon_ScorpionSacred",
+        "category": "characters"
     },
     {
         "id": 2406,
@@ -11865,7 +12394,8 @@
         "hp": 6,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_InvokerElectric",
-        "icon": "UI_Gcg_Char_MonsterIcon_InvokerElectric"
+        "icon": "UI_Gcg_Char_MonsterIcon_InvokerElectric",
+        "category": "characters"
     },
     {
         "id": 2501,
@@ -11923,6 +12453,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_Ningyo_01",
                 "iconHash": "1195330834910186194"
             },
@@ -11941,6 +12472,7 @@
                 ],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_Ningyo_02",
                 "iconHash": "6052049503972696139"
             },
@@ -11974,7 +12506,8 @@
         "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Ningyo",
-        "icon": "UI_Gcg_Char_MonsterIcon_Ningyo"
+        "icon": "UI_Gcg_Char_MonsterIcon_Ningyo",
+        "category": "characters"
     },
     {
         "id": 2502,
@@ -12125,7 +12658,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Dvalin",
-        "icon": "UI_Gcg_Char_MonsterIcon_Dvalin"
+        "icon": "UI_Gcg_Char_MonsterIcon_Dvalin",
+        "category": "characters"
     },
     {
         "id": 2503,
@@ -12227,6 +12761,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_ChrysopeleaSacred_02",
                 "iconHash": "9799792064314053498"
             }
@@ -12234,7 +12769,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_ChrysopeleaSacred",
-        "icon": "UI_Gcg_Char_MonsterIcon_ChrysopeleaSacred"
+        "icon": "UI_Gcg_Char_MonsterIcon_ChrysopeleaSacred",
+        "category": "characters"
     },
     {
         "id": 2601,
@@ -12344,7 +12880,8 @@
         "hp": 8,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Bruterock",
-        "icon": "UI_Gcg_Char_MonsterIcon_Bruterock"
+        "icon": "UI_Gcg_Char_MonsterIcon_Bruterock",
+        "category": "characters"
     },
     {
         "id": 2602,
@@ -12453,7 +12990,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Dahaka",
-        "icon": "UI_Gcg_Char_MonsterIcon_Dahaka"
+        "icon": "UI_Gcg_Char_MonsterIcon_Dahaka",
+        "category": "characters"
     },
     {
         "id": 2603,
@@ -12548,7 +13086,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Planelurker",
-        "icon": "UI_Gcg_Char_MonsterIcon_Planelurker"
+        "icon": "UI_Gcg_Char_MonsterIcon_Planelurker",
+        "category": "characters"
     },
     {
         "id": 2701,
@@ -12657,7 +13196,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Fungusgrass",
-        "icon": "UI_Gcg_Char_MonsterIcon_Fungusgrass"
+        "icon": "UI_Gcg_Char_MonsterIcon_Fungusgrass",
+        "category": "characters"
     },
     {
         "id": 2702,
@@ -12758,6 +13298,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
+                "keyMap": {},
                 "icon": "MonsterSkill_S_Apep_02",
                 "iconHash": "10522305635224819829"
             }
@@ -12765,7 +13306,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Apep",
-        "icon": "UI_Gcg_Char_MonsterIcon_Apep"
+        "icon": "UI_Gcg_Char_MonsterIcon_Apep",
+        "category": "characters"
     },
     {
         "id": 2703,
@@ -12874,7 +13416,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_EremiteGrass",
-        "icon": "UI_Gcg_Char_MonsterIcon_EremiteGrass"
+        "icon": "UI_Gcg_Char_MonsterIcon_EremiteGrass",
+        "category": "characters"
     },
     {
         "id": 2704,
@@ -12997,7 +13540,8 @@
         "hp": 8,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_HookwalkerPrimo",
-        "icon": "UI_Gcg_Char_MonsterIcon_HookwalkerPrimo"
+        "icon": "UI_Gcg_Char_MonsterIcon_HookwalkerPrimo",
+        "category": "characters"
     },
     {
         "id": 6301,
@@ -13106,7 +13650,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_LaSignoraHarbinger",
-        "icon": "UI_Gcg_Char_MonsterIcon_LaSignoraHarbinger"
+        "icon": "UI_Gcg_Char_MonsterIcon_LaSignoraHarbinger",
+        "category": "characters"
     },
     {
         "id": 6601,
@@ -13234,7 +13779,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_DahakaIce",
-        "icon": "UI_Gcg_Char_MonsterIcon_DahakaIce"
+        "icon": "UI_Gcg_Char_MonsterIcon_DahakaIce",
+        "category": "characters"
     },
     {
         "id": 6602,
@@ -13362,7 +13908,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_DahakaWater",
-        "icon": "UI_Gcg_Char_MonsterIcon_DahakaWater"
+        "icon": "UI_Gcg_Char_MonsterIcon_DahakaWater",
+        "category": "characters"
     },
     {
         "id": 6603,
@@ -13490,7 +14037,8 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_DahakaFire",
-        "icon": "UI_Gcg_Char_MonsterIcon_DahakaFire"
+        "icon": "UI_Gcg_Char_MonsterIcon_DahakaFire",
+        "category": "characters"
     },
     {
         "id": 6604,
@@ -13618,6 +14166,7 @@
         "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_DahakaElec",
-        "icon": "UI_Gcg_Char_MonsterIcon_DahakaElec"
+        "icon": "UI_Gcg_Char_MonsterIcon_DahakaElec",
+        "category": "characters"
     }
 ]
