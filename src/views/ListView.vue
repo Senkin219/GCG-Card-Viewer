@@ -278,25 +278,22 @@ watch(filteredCharacters, (newCharacterList) => {
     <div id="cards">
       <el-cascader
         v-model="filterSelection"
+        popper-class="character-popper"
         :options="cascaderOptions"
         :props="{multiple: true}"
         :placeholder="t.filterPlaceholder"
-        clearable
         :collapse-tags="isMobile"
         :collapse-tags-tooltip="isMobile"
         size="large"
         :show-all-levels="false"
         style="width: 240px;"
       />
-
-      &nbsp;&nbsp;
-
-      <el-select 
-        v-model="selectedCharacter" 
+      <el-select
+        v-model="selectedCharacter"
+        popper-class="character-popper"
         :placeholder="t.characterPlaceholder"
-        clearable 
-        :filterable="!isMobile && filterSelection.length === 0"
-        size="large" 
+        clearable
+        size="large"
         style="width: 240px;"
       >
         <el-option-group
@@ -312,15 +309,12 @@ watch(filteredCharacters, (newCharacterList) => {
           />
         </el-option-group>
       </el-select>
-
-      &nbsp;&nbsp;
-      
       <el-button 
         type="primary" 
         size="large" 
         :disabled="filteredCharacters.length === 0" 
         @click="handleButtonClick"
-        :style="language === 'en' ? 'width: 120px;' : 'width: 80px;'"
+        :style="language === 'en' ? 'width: 120px;' : 'width: 100px;'"
       >
         {{ selectedCharacter ? t.viewButton : t.randomButton }}
       </el-button>
@@ -335,8 +329,8 @@ watch(filteredCharacters, (newCharacterList) => {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   transform-origin: center;
   overflow: hidden;
 }
@@ -347,11 +341,18 @@ watch(filteredCharacters, (newCharacterList) => {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  gap: 7px;
+}
+
+:global(.character-popper .el-scrollbar__wrap) {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 @media (max-width: 767px) {
   #cards {
     flex-direction: column;
+    gap: 20px;
   }
 }
 </style>

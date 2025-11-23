@@ -336,7 +336,7 @@
         "mix": 0
     },
     "Avatar_Ifa": {
-        "bg": "Gcg_CardFace_Char_Avatar_Ifa_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Ifa_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Ifa_Spine"
         ],
@@ -709,7 +709,7 @@
         "mix": 0.2
     },
     "Avatar_Varesa": {
-        "bg": "Gcg_CardFace_Char_Avatar_Varesa_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Varesa_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Varesa_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Varesa_Spine"
