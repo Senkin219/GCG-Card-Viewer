@@ -1,6 +1,16 @@
+<template>
+  <div id="container">
+    <div id="cards">
+      <Card character-name="Avatar_Klee" />
+      <Card character-name="Avatar_Nahida" />
+      <Card character-name="Avatar_Diona" />
+    </div>
+  </div>
+</template>
+
 <script setup>
-import { onMounted } from 'vue';
-import Card from '../components/Card.vue';
+import { onMounted } from "vue";
+import Card from "@/components/Card.vue";
 
 onMounted(() => {
   function watchWindowSize() {
@@ -12,16 +22,16 @@ onMounted(() => {
     let scale = 1;
     if (cards.offsetHeight == 0) {
       setTimeout(watchWindowSize, 100);
-      return
+      return;
     }
     if (aspectRatio < 1) {
-      scale = 0.6 * windowwidth / cards.offsetHeight;
+      scale = (0.6 * windowwidth) / cards.offsetHeight;
       container.style.transform = "rotate(90deg)";
       container.style.height = "100vw";
       container.style.width = "100vh";
       container.style.overflow = "visible";
     } else {
-      scale = 0.6 * windowheight / cards.offsetHeight;
+      scale = (0.6 * windowheight) / cards.offsetHeight;
       container.style.transform = "rotate(0deg)";
       container.style.height = "100vh";
       container.style.width = "100vw";
@@ -31,18 +41,8 @@ onMounted(() => {
   }
   window.addEventListener("resize", watchWindowSize);
   watchWindowSize();
-})
+});
 </script>
-
-<template>
-  <div id="container">
-    <div id="cards">
-      <Card character-name="Avatar_Klee" />
-      <Card character-name="Avatar_Nahida" />
-      <Card character-name="Avatar_Diona" />
-    </div>
-  </div>
-</template>
 
 <style scoped>
 #container {

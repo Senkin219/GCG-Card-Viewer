@@ -1,16 +1,16 @@
-body{
-    height:100%;
-    width:100%;
-    position: fixed;
-    overflow:hidden;
-    margin:0;
-    padding: 0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    touch-action: manipulation;
-    user-select: none;
-    -webkit-overflow-scrolling: touch;
+body {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-overflow-scrolling: touch;
 }
 
 @media (hover: none) {

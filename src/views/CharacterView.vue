@@ -1,6 +1,14 @@
+<template>
+  <div id="container">
+    <div id="cards">
+      <Card :character-name="$route.params.name" />
+    </div>
+  </div>
+</template>
+
 <script setup>
-import { onMounted } from 'vue';
-import Card from '../components/Card.vue';
+import { onMounted } from "vue";
+import Card from "@/components/Card.vue";
 
 onMounted(() => {
   function watchWindowSize() {
@@ -10,9 +18,9 @@ onMounted(() => {
     let scale = 1;
     if (cards.offsetHeight == 0) {
       setTimeout(watchWindowSize, 100);
-      return
+      return;
     }
-    scale = 0.7 * windowheight / cards.offsetHeight;
+    scale = (0.7 * windowheight) / cards.offsetHeight;
     container.style.transform = "rotate(0deg)";
     container.style.height = "100vh";
     container.style.width = "100vw";
@@ -20,16 +28,8 @@ onMounted(() => {
   }
   window.addEventListener("resize", watchWindowSize);
   watchWindowSize();
-})
+});
 </script>
-
-<template>
-  <div id="container">
-    <div id="cards">
-      <Card :character-name="$route.params.name" />
-    </div>
-  </div>
-</template>
 
 <style scoped>
 #container {
