@@ -25,9 +25,9 @@ let wallpaperPropertyListener;
 
 const translations = {
   zh: {
-    tip1: "下次打开壁纸时将自动加载本次选择的角色，如需切换其它角色，可在",
+    tip1: "下次启动壁纸时将自动加载本次选择的角色，如需切换其它角色，可在",
     tip2: "壁纸属性",
-    tip3: "内取消勾选“跳过角色选择”。",
+    tip3: "内取消勾选「跳过角色选择」。",
   },
   en: {
     tip1: "The selected character will be automatically loaded next time. To switch characters, go to ",
