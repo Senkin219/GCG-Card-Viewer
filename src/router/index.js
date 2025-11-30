@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import CharacterView from "@/views/CharacterView.vue";
 import ListView from "@/views/ListView.vue";
@@ -34,7 +34,7 @@ const characterNameMap = (() => {
 })();
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: "/lolicon",

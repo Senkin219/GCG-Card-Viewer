@@ -32,23 +32,37 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from "vue";
+import { ref, computed, watch, onMounted, onUnmounted } from "vue";
+import { useRouter } from "vue-router";
 import { ElSelect, ElOption, ElButton, ElOptionGroup, ElCascader } from "element-plus";
 import { useMediaQuery } from "@vueuse/core";
 import characterList from "@/data/CharacterList.json";
 import characterInfo from "@/data/CharacterInfo.json";
 
+const router = useRouter();
 const language = ref(navigator.language.startsWith("zh") ? "zh" : "en");
 const isMobile = useMediaQuery("(max-width: 767px)");
 const filterSelection = ref([]);
 const selectedCharacter = ref("");
+let wallpaperPropertyListener;
 
 function changepage() {
-  window.location.href = import.meta.env.BASE_URL + selectedCharacter.value;
+  router.push("/" + selectedCharacter.value);
+}
+
+function loadLastCharacter() {
+  if (isWE() && window.WEconfigs.skiplistpage) {
+    const lastCharacter = localStorage.getItem("GITCG_Character") || "";
+    if (lastCharacter in characterList) {
+      selectedCharacter.value = lastCharacter;
+      changepage();
+    }
+  }
 }
 
 function handleButtonClick() {
   if (selectedCharacter.value) {
+    if (isWE()) localStorage.setItem("GITCG_Character", selectedCharacter.value);
     changepage();
   } else {
     const characters = filteredCharacters.value;
@@ -165,77 +179,80 @@ const caseInsensitiveKeyMap = Object.keys(characterList).reduce((acc, originalKe
   return acc;
 }, {});
 
-const processedKeys = new Set();
+const allCharacters = computed(() => {
+  const processedKeys = new Set();
 
-const knownCharacters = characterInfo
-  .flatMap((charInfo) => {
-    const generatedCharacters = [];
-    const baseKey = charInfo.cardFace.replace("UI_Gcg_CardFace_Char_", "");
-    let displayName;
-    if (language.value === "en") {
-      displayName = charInfo.englishName;
-      if (charInfo.cardFace === "UI_Gcg_CardFace_Char_Avatar_FurinaOusia") {
-        displayName = "Furina (Ousia)";
+  const knownCharacters = characterInfo
+    .flatMap((charInfo) => {
+      const generatedCharacters = [];
+      const baseKey = charInfo.cardFace.replace("UI_Gcg_CardFace_Char_", "");
+      let displayName;
+      if (language.value === "en") {
+        displayName = charInfo.englishName;
+        if (charInfo.cardFace === "UI_Gcg_CardFace_Char_Avatar_FurinaOusia") {
+          displayName = "Furina (Ousia)";
+        }
+      } else {
+        displayName = charInfo.name;
+        if (charInfo.cardFace === "UI_Gcg_CardFace_Char_Avatar_FurinaOusia") {
+          displayName = "芙宁娜(芒)";
+        }
       }
-    } else {
-      displayName = charInfo.name;
-      if (charInfo.cardFace === "UI_Gcg_CardFace_Char_Avatar_FurinaOusia") {
-        displayName = "芙宁娜(芒)";
+      const lowerBaseKey = baseKey.toLowerCase();
+      if (caseInsensitiveKeyMap.hasOwnProperty(lowerBaseKey)) {
+        const originalKey = caseInsensitiveKeyMap[lowerBaseKey];
+        processedKeys.add(originalKey);
+        generatedCharacters.push({
+          ...charInfo,
+          name: displayName,
+          listKey: originalKey,
+        });
       }
-    }
-    const lowerBaseKey = baseKey.toLowerCase();
-    if (caseInsensitiveKeyMap.hasOwnProperty(lowerBaseKey)) {
-      const originalKey = caseInsensitiveKeyMap[lowerBaseKey];
-      processedKeys.add(originalKey);
-      generatedCharacters.push({
-        ...charInfo,
-        name: displayName,
-        listKey: originalKey,
-      });
-    }
-    const lowerKey02 = (baseKey + "02").toLowerCase();
-    if (caseInsensitiveKeyMap.hasOwnProperty(lowerKey02)) {
-      const originalKey02 = caseInsensitiveKeyMap[lowerKey02];
-      processedKeys.add(originalKey02);
-      generatedCharacters.push({
-        ...charInfo,
-        name: displayName + "02",
-        listKey: originalKey02,
-      });
-    }
-    return generatedCharacters;
-  })
-  .sort((a, b) => a.id - b.id);
+      const lowerKey02 = (baseKey + "02").toLowerCase();
+      if (caseInsensitiveKeyMap.hasOwnProperty(lowerKey02)) {
+        const originalKey02 = caseInsensitiveKeyMap[lowerKey02];
+        processedKeys.add(originalKey02);
+        generatedCharacters.push({
+          ...charInfo,
+          name: displayName + "02",
+          listKey: originalKey02,
+        });
+      }
+      return generatedCharacters;
+    })
+    .sort((a, b) => a.id - b.id);
 
-const otherCharacters = Object.keys(characterList)
-  .filter((key) => !processedKeys.has(key))
-  .map((key) => ({
-    id: Infinity,
-    name: key.replace("Avatar_", "").replace("Monster_", ""),
-    tags: ["GCG_TAG_WEAPON_NONE"],
-    listKey: key,
-  }));
+  const otherCharacters = Object.keys(characterList)
+    .filter((key) => !processedKeys.has(key))
+    .map((key) => ({
+      id: Infinity,
+      name: key.replace("Avatar_", "").replace("Monster_", ""),
+      tags: ["GCG_TAG_WEAPON_NONE"],
+      listKey: key,
+    }));
 
-const allCharacters = [...knownCharacters, ...otherCharacters];
+  const merged = [...knownCharacters, ...otherCharacters];
 
-allCharacters.forEach((char) => {
-  const hasAffiliation = char.tags.some((tag) => tag.startsWith("GCG_TAG_NATION_") || tag.startsWith("GCG_TAG_CAMP_"));
-  if (!hasAffiliation) {
-    char.tags.push("TAG_其他所属");
-  }
-  const loliIds = [1102, 1108, 1213, 1306, 1410, 1414, 1507, 1610, 1703, 1704];
-  if (loliIds.includes(char.id)) {
-    char.tags.push("TAG_LOLI");
-  }
+  merged.forEach((char) => {
+    const hasAffiliation = char.tags.some((tag) => tag.startsWith("GCG_TAG_NATION_") || tag.startsWith("GCG_TAG_CAMP_"));
+    if (!hasAffiliation) {
+      char.tags.push("TAG_其他所属");
+    }
+    const loliIds = [1102, 1108, 1213, 1306, 1410, 1414, 1507, 1610, 1703, 1704];
+    if (loliIds.includes(char.id)) {
+      char.tags.push("TAG_LOLI");
+    }
+  });
+  return merged;
 });
 
-const allAvailableTags = new Set(allCharacters.flatMap((char) => char.tags));
+const allAvailableTags = computed(() => new Set(allCharacters.value.flatMap((char) => char.tags)));
 
 const cascaderOptions = computed(() => {
   return Object.entries(currentTags.value)
     .map(([groupName, options]) => {
       const availableChildren = Object.entries(options)
-        .filter(([value, label]) => allAvailableTags.has(value))
+        .filter(([value, label]) => allAvailableTags.value.has(value))
         .map(([value, label]) => ({ value, label }));
       if (availableChildren.length > 0) {
         return {
@@ -255,7 +272,7 @@ const activeFilterTags = computed(() => {
 
 const filteredCharacters = computed(() => {
   if (activeFilterTags.value.length === 0) {
-    return allCharacters;
+    return allCharacters.value;
   }
   const groupKeys = Object.keys(currentTags.value);
   const groupedFilters = {
@@ -271,7 +288,7 @@ const filteredCharacters = computed(() => {
     else if (currentTags.value[groupKeys[3]][tag]) groupedFilters[groupKeys[3]].push(tag);
   });
   const isAffiliationSelected = groupedFilters[groupKeys[2]].length > 0;
-  return allCharacters.filter((char) => {
+  return allCharacters.value.filter((char) => {
     return Object.entries(groupedFilters).every(([groupName, selectedTagsInGroup]) => {
       if (selectedTagsInGroup.length === 0) return true;
       if (groupName === groupKeys[1] && isAffiliationSelected && char.tags.includes("GCG_TAG_WEAPON_NONE")) return true;
@@ -301,6 +318,32 @@ watch(filteredCharacters, (newCharacterList) => {
   if (selectedCharacter.value && !newCharacterList.find((char) => char.listKey === selectedCharacter.value)) {
     selectedCharacter.value = "";
   }
+});
+
+onMounted(() => {
+  wallpaperPropertyListener = window.wallpaperPropertyListener;
+  window.wallpaperPropertyListener = {
+    applyGeneralProperties: function (properties) {
+      if (properties.fps) window.WEconfigs.fps = properties.fps;
+      if (properties.language) {
+        window.WEconfigs.language = properties.language;
+        if (window.WEconfigs.language) language.value = window.WEconfigs.language.startsWith("zh") ? "zh" : "en";
+      }
+    },
+    applyUserProperties: function (properties) {
+      if (properties.showtip) window.WEconfigs.showtip = properties.showtip.value;
+      if (properties.skiplistpage) {
+        window.WEconfigs.skiplistpage = properties.skiplistpage.value;
+        loadLastCharacter();
+      }
+    },
+  };
+  loadLastCharacter();
+  if (isWE() && window.WEconfigs.language) language.value = window.WEconfigs.language.startsWith("zh") ? "zh" : "en";
+});
+
+onUnmounted(() => {
+  window.wallpaperPropertyListener = wallpaperPropertyListener;
 });
 </script>
 

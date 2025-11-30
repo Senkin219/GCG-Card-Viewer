@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="cardface" :style="{ backgroundImage: `url(/resources/${characterName}/${characterList[characterName]['bg']})` }">
+    <div class="cardface" :style="{ backgroundImage: `url(./resources/${characterName}/${characterList[characterName]['bg']})` }">
       <div :id="spineName" style="width: 100%; height: 100%; position: absolute" v-for="spineName in characterList[characterName]['spine']"></div>
       <div
         :id="`btn_${characterName}`"
@@ -43,8 +43,8 @@ onMounted(() => {
   const height = (width / 478) * 806;
   for (let spineName of characterList[props.characterName]["spine"]) {
     players[spineName] = new SpinePlayer(spineName, {
-      skelUrl: `/resources/${props.characterName}/${spineName}.skel`,
-      atlasUrl: `/resources/${props.characterName}/${spineName}.atlas`,
+      skelUrl: `./resources/${props.characterName}/${spineName}.skel`,
+      atlasUrl: `./resources/${props.characterName}/${spineName}.atlas`,
       premultipliedAlpha: false,
       showControls: false,
       showLoading: false,

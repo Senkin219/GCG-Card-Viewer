@@ -7,6 +7,27 @@
     <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="theme-color" content="#6c4d36" />
+    <script>
+      function isWE() {
+        return typeof window.wallpaperRegisterAudioListener === "function";
+      }
+      window.WEconfigs = {
+        language: "",
+        fps: 0,
+        showtip: false,
+        skiplistpage: false,
+      };
+      window.wallpaperPropertyListener = {
+        applyGeneralProperties: function (properties) {
+          if (properties.fps) window.WEconfigs.fps = properties.fps;
+          if (properties.language) window.WEconfigs.language = properties.language;
+        },
+        applyUserProperties: function (properties) {
+          if (properties.showtip) window.WEconfigs.showtip = properties.showtip.value;
+          if (properties.skiplistpage) window.WEconfigs.skiplistpage = properties.skiplistpage.value;
+        },
+      };
+    </script>
   </head>
 
   <body>
