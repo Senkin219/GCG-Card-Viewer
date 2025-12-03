@@ -20,6 +20,7 @@ const mixDurations = {
   Avatar_Clorinde: 0,
   Avatar_Dori: 0.05,
   Avatar_Emilie: 0,
+  Avatar_Escoffier: 0.1,
   Avatar_Eula: 0,
   Avatar_Feiyan: 0,
   Avatar_Freminet02: 0,
