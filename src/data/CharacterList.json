@@ -216,6 +216,16 @@
         "btn": {},
         "mix": 0
     },
+    "Avatar_Escoffier": {
+        "bg": "Gcg_CardFace_Char_Avatar_Escoffier_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Escoffier_Sub2_Spine",
+            "Gcg_CardFace_Char_Avatar_Escoffier_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_Escoffier_Spine"
+        ],
+        "btn": {},
+        "mix": 0.2
+    },
     "Avatar_Eula": {
         "bg": "Gcg_CardFace_Char_Avatar_Eula_Spine_Bg.webp",
         "spine": [

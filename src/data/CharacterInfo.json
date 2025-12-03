@@ -1378,7 +1378,7 @@
                 "englishName": "Dawnfrost Darkstar",
                 "type": "GCG_SKILL_TAG_E",
                 "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。\\n自身进入<color=#FFFFFFFF>$[C111141]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>；生成1点<color=#FFFFFFFF>$[C111142]</color>和<color=#FFFFFFFF>$[C111143]</color>。（角色进入<color=#FFFFFFFF>$[C111141]</color>后不可使用此技能）",
-                "description": "造成2点冰元素伤害。\n自身进入夜魂加持，并获得1点「夜魂值」；生成1点白曜护盾和伊兹帕帕。（角色进入夜魂加持后不可使用此技能）",
+                "description": "造成1点冰元素伤害。\n自身进入夜魂加持，并获得1点「夜魂值」；生成1点白曜护盾和伊兹帕帕。（角色进入夜魂加持后不可使用此技能）",
                 "playCost": [
                     {
                         "type": "GCG_COST_DICE_CRYO",
@@ -1389,7 +1389,7 @@
                 "hidden": false,
                 "keyMap": {
                     "D__KEY__ELEMENT": "GCG_ELEMENT_CRYO",
-                    "D__KEY__DAMAGE": 2
+                    "D__KEY__DAMAGE": 1
                 },
                 "icon": "Skill_S_Citlali_01",
                 "iconHash": "15843517738687926670"
@@ -1439,6 +1439,117 @@
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Citlali",
         "icon": "UI_Gcg_Char_AvatarIcon_Citlali",
+        "category": "characters"
+    },
+    {
+        "id": 1115,
+        "shareId": 533,
+        "sinceVersion": "v6.2.0",
+        "obtainable": true,
+        "name": "爱可菲",
+        "englishName": "Escoffier",
+        "tags": [
+            "GCG_TAG_ELEMENT_CRYO",
+            "GCG_TAG_WEAPON_POLE",
+            "GCG_TAG_NATION_FONTAINE",
+            "GCG_TAG_ARKHE_PNEUMA"
+        ],
+        "storyTitle": "明绚千韵·爱可菲",
+        "storyText": "调霜焙巧，琢味求臻。",
+        "skills": [
+            {
+                "id": 11151,
+                "name": "后厨手艺",
+                "englishName": "Kitchen Skills",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_03",
+                "iconHash": "6801928435021247855"
+            },
+            {
+                "id": 11152,
+                "name": "低温烹饪",
+                "englishName": "Low-Temperature Cooking",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，召唤<color=#FFFFFFFF>$[C111151]</color>。",
+                "description": "造成1点冰元素伤害，召唤厨艺机关·低温冷藏模式。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_CRYO",
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "Skill_S_Escoffier_01",
+                "iconHash": "13880289175521961214"
+            },
+            {
+                "id": 11153,
+                "name": "花刀技法",
+                "englishName": "Scoring Cuts",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，治疗我方所有角色2点。",
+                "description": "造成1点冰元素伤害，治疗我方所有角色2点。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_CRYO",
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "Skill_E_Escoffier_01_HD",
+                "iconHash": "2714355292734222920"
+            },
+            {
+                "id": 11154,
+                "name": "时时刻刻的即兴料理",
+                "englishName": "Constant Off-the-Cuff Cookery",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】战斗开始时，生成<color=#FFFFFFFF>$[C111159]</color>。",
+                "description": "【被动】战斗开始时，生成全频谱多重任务厨艺机关。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_Escoffier_02",
+                "iconHash": "9231393030805220522"
+            }
+        ],
+        "hp": 11,
+        "maxEnergy": 2,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_Escoffier",
+        "icon": "UI_Gcg_Char_AvatarIcon_Escoffier",
         "category": "characters"
     },
     {
@@ -2630,7 +2741,7 @@
                 "iconHash": "7720131026093354059"
             }
         ],
-        "hp": 10,
+        "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Furina",
         "icon": "UI_Gcg_Char_AvatarIcon_Furina",
@@ -2749,7 +2860,7 @@
                 "iconHash": "7720131026093354059"
             }
         ],
-        "hp": 10,
+        "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_FurinaOusia",
         "icon": "UI_Gcg_Char_AvatarIcon_FurinaOusia",
@@ -4380,8 +4491,8 @@
                 "name": "万相化灰",
                 "englishName": "All Is Ash",
                 "type": "GCG_SKILL_TAG_E",
-                "rawDescription": "在对方场上生成5层<color=#FFFFFFFF>$[C113141]</color>，然后造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
-                "description": "在对方场上生成5层血偿勒令，然后造成2点火元素伤害。",
+                "rawDescription": "在对方场上生成3层<color=#FFFFFFFF>$[C113141]</color>，然后造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "在对方场上生成3层血偿勒令，然后造成2点火元素伤害。",
                 "playCost": [
                     {
                         "type": "GCG_COST_DICE_PYRO",
@@ -4600,6 +4711,119 @@
         "maxEnergy": 0,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Mavuika",
         "icon": "UI_Gcg_Char_AvatarIcon_Mavuika",
+        "category": "characters"
+    },
+    {
+        "id": 1316,
+        "shareId": 534,
+        "sinceVersion": "v6.2.0",
+        "obtainable": true,
+        "name": "嘉明",
+        "englishName": "Gaming",
+        "tags": [
+            "GCG_TAG_ELEMENT_PYRO",
+            "GCG_TAG_WEAPON_CLAYMORE",
+            "GCG_TAG_NATION_LIYUE"
+        ],
+        "storyTitle": "骏猊頕首·嘉明",
+        "storyText": "威姿劲步，踔厉猛进。",
+        "skills": [
+            {
+                "id": 13161,
+                "name": "刃爪悬星",
+                "englishName": "Stellar Rend",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_PYRO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_04",
+                "iconHash": "5805647003315671574"
+            },
+            {
+                "id": 13162,
+                "name": "瑞兽登高楼",
+                "englishName": "Bestial Ascent",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，自身附属<color=#FFFFFFFF>$[C113161]</color>，我方切换到下一个角色。",
+                "description": "造成1点火元素伤害，自身附属舞兽之法，我方切换到下一个角色。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_PYRO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO",
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "Skill_S_Gaming_01",
+                "iconHash": "3133913537937008533"
+            },
+            {
+                "id": 13163,
+                "name": "璨焰金猊舞",
+                "englishName": "Suanni's Gilded Dance",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，自身附属<color=#FFFFFFFF>$[C113162]</color>。",
+                "description": "造成2点火元素伤害，自身附属猊兽·文仔。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_PYRO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_E_Gaming_01_HD",
+                "iconHash": "7757049260831769936"
+            },
+            {
+                "id": 13164,
+                "name": "踏云献瑞",
+                "englishName": "Charmed Cloudstrider",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点火元素伤害。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_04",
+                "iconHash": "5805647003315671574"
+            }
+        ],
+        "hp": 10,
+        "maxEnergy": 3,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_Gaming",
+        "icon": "UI_Gcg_Char_AvatarIcon_Gaming",
         "category": "characters"
     },
     {
@@ -5981,7 +6205,7 @@
                 "englishName": "The Three Principles of Power",
                 "type": "GCG_SKILL_TAG_Q",
                 "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，自身进入<color=#FFFFFFFF>$[C114141]</color>，获得1点<color=#FFFFFFFF>「夜魂值」</color>，生成<color=#FFFFFFFF>$[C114142]</color>。",
-                "description": "造成3点雷元素伤害，自身进入夜魂加持，获得1点「夜魂值」，生成动能标示。",
+                "description": "造成2点雷元素伤害，自身进入夜魂加持，获得1点「夜魂值」，生成动能标示。",
                 "playCost": [
                     {
                         "type": "GCG_COST_DICE_ELECTRO",
@@ -5996,7 +6220,7 @@
                 "hidden": false,
                 "keyMap": {
                     "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
-                    "D__KEY__DAMAGE": 3
+                    "D__KEY__DAMAGE": 2
                 },
                 "icon": "Skill_E_Iansan_01_HD",
                 "iconHash": "14667989941662510669"
@@ -6044,7 +6268,7 @@
                 "iconHash": "2149304041888332526"
             }
         ],
-        "hp": 12,
+        "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Iansan",
         "icon": "UI_Gcg_Char_AvatarIcon_Iansan",
@@ -6160,16 +6384,29 @@
                 "englishName": "Guardian Vent: Volcano Kablam",
                 "type": "GCG_SKILL_TAG_Q",
                 "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，此技能视为$[K52]。",
-                "description": "造成2点雷元素伤害，此技能视为下落攻击。",
+                "description": "造成3点雷元素伤害，此技能视为下落攻击。",
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
                 "keyMap": {
                     "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
-                    "D__KEY__DAMAGE": 2
+                    "D__KEY__DAMAGE": 3
                 },
                 "icon": "Skill_E_Varesa_01_HD",
                 "iconHash": "11953503531440636557"
+            },
+            {
+                "id": 14156,
+                "name": "夜虹逐跃",
+                "englishName": "Riding the Night-Rainbow",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，自身附属<color=#FFFFFFFF>$[C114154]</color>，进入<color=#FFFFFFFF>$[C114151]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>，然后我方切换到下一个角色。",
+                "description": "造成D__KEY__DAMAGE点D__KEY__ELEMENT，自身附属突驰烈进，进入夜魂加持，并获得1点「夜魂值」，然后我方切换到下一个角色。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "icon": "Skill_S_Varesa_01",
+                "iconHash": "5824436277371732486"
             }
         ],
         "hp": 10,
@@ -11041,10 +11278,14 @@
                 "englishName": "Thundering Tide",
                 "type": "GCG_SKILL_TAG_Q",
                 "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，触发我方所有「召唤物」的「结束阶段」效果。",
-                "description": "造成D__KEY__DAMAGE点D__KEY__ELEMENT，触发我方所有「召唤物」的「结束阶段」效果。",
+                "description": "造成4点水元素伤害，触发我方所有「召唤物」的「结束阶段」效果。",
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_HYDRO",
+                    "D__KEY__DAMAGE": 4
+                },
                 "icon": "MonsterSkill_E_Narcissusborn_01_HD",
                 "iconHash": "421517890308362403"
             },
@@ -11058,6 +11299,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "MonsterSkill_E_Narcissusborn_01_HD",
                 "iconHash": "421517890308362403"
             }
@@ -13087,6 +13329,164 @@
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Planelurker",
         "icon": "UI_Gcg_Char_MonsterIcon_Planelurker",
+        "category": "characters"
+    },
+    {
+        "id": 2604,
+        "shareId": 535,
+        "sinceVersion": "v6.2.0",
+        "obtainable": true,
+        "name": "黑蛇骑士·摧岩之钺",
+        "englishName": "Black Serpent Knight: Rockbreaker Ax",
+        "tags": [
+            "GCG_TAG_ELEMENT_GEO",
+            "GCG_TAG_WEAPON_NONE",
+            "GCG_TAG_CAMP_MONSTER"
+        ],
+        "storyTitle": "黑蛇骑士·摧岩之钺",
+        "storyText": "「在宫廷当中颇具地位的近卫军人，以名唤「至真之术」的剑斗技巧，扫除王家的敌人。」",
+        "skills": [
+            {
+                "id": 26041,
+                "name": "顶位迅斩",
+                "englishName": "Supreme Strike",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_GEO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_00",
+                "iconHash": "6499903474057818465"
+            },
+            {
+                "id": 26042,
+                "name": "斧盾震击",
+                "englishName": "Axe and Aegis",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成3点岩元素伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_GEO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_GEO",
+                    "D__KEY__DAMAGE": 3
+                },
+                "icon": "MonsterSkill_E_BruteAxe_01_HD",
+                "iconHash": "8742293352063486875"
+            },
+            {
+                "id": 26043,
+                "name": "坚岩姿态",
+                "englishName": "Stone Stance",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "自身<color=#FFFFFFFF>$[K206]</color>，准备技能<color=#FFFFFFFF>$[S26045]</color>，然后准备技能<color=#FFFFFFFF>$[S26047]</color>。",
+                "description": "自身附着岩元素，准备技能巨钺强袭，然后准备技能大师之击。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_GEO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_GEO",
+                    "D__KEY__DAMAGE": 3
+                },
+                "icon": "MonsterSkill_S_BruteAxe_01",
+                "iconHash": "1281947796134757848"
+            },
+            {
+                "id": 26044,
+                "name": "攻阵气势",
+                "englishName": "Attacking Momentum",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】如果敌方场上存在<color=#FFFFFFFF> 伤害抵消</color>、{SPRITE_PRESET#4007}<color=#FFFFFFFF>护盾</color>状态；或存在<color=#FFFFFFFF> 伤害抵消</color>、{SPRITE_PRESET#4007}<color=#FFFFFFFF>护盾</color>出战状态，则我方角色使用技能后，自身附属1层<color=#FFFFFFFF>$[C126041]</color>。",
+                "description": "【被动】如果敌方场上存在 伤害抵消、护盾状态；或存在 伤害抵消、护盾出战状态，则我方角色使用技能后，自身附属1层摧岩伟力。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "MonsterSkill_S_BruteShield_01",
+                "iconHash": "15944173427749664596"
+            },
+            {
+                "id": 26045,
+                "name": "巨钺强袭",
+                "englishName": "Greataxe Strike",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，准备技能<color=#FFFFFFFF>$[S26047]</color>。",
+                "description": "造成3点岩元素伤害，准备技能大师之击。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_GEO",
+                    "D__KEY__DAMAGE": 3
+                },
+                "icon": "MonsterSkill_S_BruteAxe_01",
+                "iconHash": "1281947796134757848"
+            },
+            {
+                "id": 26046,
+                "name": "大师之击",
+                "englishName": "Master's Strike",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】如果敌方场上存在护盾或减伤状态，我方角色使用技能后，自身附属1层<color=#FFFFFFFF>$[C126041]</color>。",
+                "description": "【被动】如果敌方场上存在护盾或减伤状态，我方角色使用技能后，自身附属1层摧岩伟力。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {},
+                "icon": "MonsterSkill_S_BruteShield_01",
+                "iconHash": "15944173427749664596"
+            },
+            {
+                "id": 26047,
+                "name": "大师之击",
+                "englishName": "Master's Strike",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成3点岩元素伤害。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_GEO",
+                    "D__KEY__DAMAGE": 3
+                },
+                "icon": "MonsterSkill_S_BruteAxe_01",
+                "iconHash": "1281947796134757848"
+            }
+        ],
+        "hp": 12,
+        "maxEnergy": 2,
+        "cardFace": "UI_Gcg_CardFace_Char_Monster_DarkwraithRock",
+        "icon": "UI_Gcg_Char_MonsterIcon_DarkwraithRock",
         "category": "characters"
     },
     {
