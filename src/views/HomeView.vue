@@ -27,14 +27,14 @@ onMounted(() => {
     if (aspectRatio < 1) {
       scale = (0.6 * windowwidth) / cards.offsetHeight;
       container.style.transform = "rotate(90deg)";
-      container.style.height = "100vw";
-      container.style.width = "100vh";
+      container.style.height = "100%";
+      container.style.width = "100%";
       container.style.overflow = "visible";
     } else {
       scale = (0.6 * windowheight) / cards.offsetHeight;
       container.style.transform = "rotate(0deg)";
-      container.style.height = "100vh";
-      container.style.width = "100vw";
+      container.style.height = "100%";
+      container.style.width = "100%";
       container.style.overflow = "hidden";
     }
     cards.style.transform = `scale(${scale})`;

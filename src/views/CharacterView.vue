@@ -88,8 +88,8 @@ onMounted(() => {
     }
     scale = (0.7 * windowheight) / cards.offsetHeight;
     container.style.transform = "rotate(0deg)";
-    container.style.height = "100vh";
-    container.style.width = "100vw";
+    container.style.height = "100%";
+    container.style.width = "100%";
     cards.style.transform = `scale(${scale})`;
   }
   window.addEventListener("resize", watchWindowSize);
