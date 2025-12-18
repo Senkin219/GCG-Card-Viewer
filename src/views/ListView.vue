@@ -354,8 +354,8 @@ onUnmounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   width: 100%;
+  height: 100%;
   transform-origin: center;
   overflow: hidden;
 }
