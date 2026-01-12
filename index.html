@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>GCG Card Viewer</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <meta name="theme-color" content="#6c4d36" />
+    <script>
+      function isWE() {
+        return typeof window.wallpaperRegisterAudioListener === "function";
+      }
+      window.WEconfigs = {
+        language: "",
+        fps: 0,
+        showtip: false,
+        skiplistpage: false,
+      };
+      window.wallpaperPropertyListener = {
+        applyGeneralProperties: function (properties) {
+          if (properties.fps) window.WEconfigs.fps = properties.fps;
+          if (properties.language) window.WEconfigs.language = properties.language;
+        },
+        applyUserProperties: function (properties) {
+          if (properties.showtip) window.WEconfigs.showtip = properties.showtip.value;
+          if (properties.skiplistpage) window.WEconfigs.skiplistpage = properties.skiplistpage.value;
+        },
+      };
+    </script>
+    <script type="module" crossorigin src="./assets/index-d112ad05.js"></script>
+    <link rel="stylesheet" href="./assets/index-230ae232.css">
+  <link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
+
+  <body>
+    <div id="app"></div>
+    
+  </body>
+</html>
