@@ -39,9 +39,12 @@ const mixDurations = {
   Avatar_Nahida: 0.1,
   Avatar_Navia: 0.1,
   Avatar_Neuvillette: 0,
+  Avatar_Olorun: 0.1,
   Avatar_Qiqi: 0.1,
   Avatar_Shougun: 0,
   Avatar_Sigewinne: 0,
+  Avatar_SkirkNew: 0,
+  Avatar_SkirkNew02: 0.05,
   Avatar_Varesa: 0,
   Avatar_Wanderer: 0,
   Avatar_Wanderer02: 0,
@@ -81,6 +84,8 @@ function getCharacterData(characterFolder) {
       if (b.includes("_Sub3_")) return 1;
       if (a.includes("_Sub2_")) return -1;
       if (b.includes("_Sub2_")) return 1;
+      if (a.includes("_Sub1_")) return -1;
+      if (b.includes("_Sub1_")) return 1;
       if (a.includes("_Sub_")) return -1;
       if (b.includes("_Sub_")) return 1;
       if (a.includes("02_")) return -1;

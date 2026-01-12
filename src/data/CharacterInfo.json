@@ -998,7 +998,7 @@
                 "iconHash": "211315544056649918"
             }
         ],
-        "hp": 10,
+        "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Charlotte",
         "icon": "UI_Gcg_Char_AvatarIcon_Charlotte",
@@ -1550,6 +1550,128 @@
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Escoffier",
         "icon": "UI_Gcg_Char_AvatarIcon_Escoffier",
+        "category": "characters"
+    },
+    {
+        "id": 1116,
+        "shareId": 544,
+        "sinceVersion": "v6.3.0",
+        "obtainable": true,
+        "name": "丝柯克",
+        "englishName": "Skirk",
+        "tags": [
+            "GCG_TAG_ELEMENT_CRYO",
+            "GCG_TAG_WEAPON_SWORD",
+            "GCG_TAG_NATION_COSMIC_CALAMITY"
+        ],
+        "storyTitle": "虚渊暗星·丝柯克",
+        "storyText": "星海默然，覆灭无声。",
+        "skills": [
+            {
+                "id": 11161,
+                "name": "极恶技·断",
+                "englishName": "Havoc: Sunder",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_01",
+                "iconHash": "15664253407751301348"
+            },
+            {
+                "id": 11162,
+                "name": "极恶技·闪",
+                "englishName": "Havoc: Warp",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "获得2点<color=#FFFFFFFF>蛇之狡谋</color>，生成手牌<color=#FFFFFFFF>$[C111161]</color>。（每回合1次）",
+                "description": "获得2点蛇之狡谋，生成手牌诸武相授。（每回合1次）",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_SkirkNew_01",
+                "iconHash": "5015564225513846305"
+            },
+            {
+                "id": 11163,
+                "name": "极恶技·灭",
+                "englishName": "Havoc: Ruin",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "消耗所有<color=#FFFFFFFF>蛇之狡谋</color>，造成等同于消耗<color=#FFFFFFFF>蛇之狡谋</color>数量的$[D__KEY__ELEMENT]，对后台角色造成2点$[K5]，如果消耗了7点<color=#FFFFFFFF>蛇之狡谋</color>，则改为对后台角色造成3点$[K5]。",
+                "description": "消耗所有蛇之狡谋，造成等同于消耗蛇之狡谋数量的冰元素伤害，对后台角色造成2点穿透伤害，如果消耗了7点蛇之狡谋，则改为对后台角色造成3点穿透伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_SKIRK_SPECIAL_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_CRYO",
+                    "D__KEY__DAMAGE_2": 2,
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_E_SkirkNew_01_HD",
+                "iconHash": "14213672221079322389"
+            },
+            {
+                "id": 11164,
+                "name": "理外之理",
+                "englishName": "Reason Beyond Reason",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】丝柯克无法获得充能，改为可以积累<color=#FFFFFFFF>蛇之狡谋</color>，最多7点。\\n<color=#FFFFFFFF>我方触发冻结/冰扩散/超导/冰结晶反应后：</color>生成手牌 <color=#FFFFFFFF>$[C111163]</color>。（每回合3次）",
+                "description": "【被动】丝柯克无法获得充能，改为可以积累蛇之狡谋，最多7点。\n我方触发冻结/冰扩散/超导/冰结晶反应后：生成手牌 虚境裂隙。（每回合3次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_SkirkNew_03",
+                "iconHash": "6558777458013480347"
+            },
+            {
+                "id": 11167,
+                "name": "理外之理",
+                "englishName": "Reason Beyond Reason",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】丝柯克无法获得充能，改为可以积累<color=#FFFFFFFF>蛇之狡谋</color>，最多7点。\\n<color=#FFFFFFFF>我方触发冻结/冰扩散/超导/冰结晶反应后：</color>生成手牌 <color=#FFFFFFFF>$[C111163]</color>。（每回合3次）",
+                "description": "【被动】丝柯克无法获得充能，改为可以积累蛇之狡谋，最多7点。\n我方触发冻结/冰扩散/超导/冰结晶反应后：生成手牌 虚境裂隙。（每回合3次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {},
+                "icon": "Skill_E_SkirkNew_02_HD",
+                "iconHash": "5903466291070401768"
+            }
+        ],
+        "hp": 10,
+        "maxEnergy": 0,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_SkirkNew",
+        "icon": "UI_Gcg_Char_AvatarIcon_SkirkNew",
         "category": "characters"
     },
     {
@@ -2175,7 +2297,7 @@
                 "iconHash": "9254130938456671198"
             }
         ],
-        "hp": 10,
+        "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Ayato",
         "icon": "UI_Gcg_Char_AvatarIcon_Ayato",
@@ -3848,7 +3970,7 @@
                 "englishName": "Done Deal",
                 "type": "GCG_SKILL_TAG_Q",
                 "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，本角色附属<color=#FFFFFFFF>$[C113081]</color>和<color=#FFFFFFFF>$[C113082]</color>。",
-                "description": "造成3点火元素伤害，本角色附属丹火印和灼灼。",
+                "description": "造成4点火元素伤害，本角色附属丹火印和灼灼。",
                 "playCost": [
                     {
                         "type": "GCG_COST_DICE_PYRO",
@@ -3863,7 +3985,7 @@
                 "hidden": false,
                 "keyMap": {
                     "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO",
-                    "D__KEY__DAMAGE": 3
+                    "D__KEY__DAMAGE": 4
                 },
                 "icon": "Skill_E_Feiyan_01_HD",
                 "iconHash": "8988928216159378275"
@@ -4215,7 +4337,7 @@
                 "iconHash": "5964618512782946851"
             }
         ],
-        "hp": 10,
+        "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Tohma",
         "icon": "UI_Gcg_Char_AvatarIcon_Tohma",
@@ -6405,6 +6527,7 @@
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
+                "keyMap": {},
                 "icon": "Skill_S_Varesa_01",
                 "iconHash": "5824436277371732486"
             }
@@ -6413,6 +6536,133 @@
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Varesa",
         "icon": "UI_Gcg_Char_AvatarIcon_Varesa",
+        "category": "characters"
+    },
+    {
+        "id": 1416,
+        "shareId": 545,
+        "sinceVersion": "v6.3.0",
+        "obtainable": true,
+        "name": "欧洛伦",
+        "englishName": "Ororon",
+        "tags": [
+            "GCG_TAG_ELEMENT_ELECTRO",
+            "GCG_TAG_WEAPON_BOW",
+            "GCG_TAG_NATION_NATLAN"
+        ],
+        "storyTitle": "深黯的谜烟·欧洛伦",
+        "storyText": "难辨难明之形色。",
+        "skills": [
+            {
+                "id": 14161,
+                "name": "宿灵闪箭",
+                "englishName": "Spiritvessel Snapshot",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_02",
+                "iconHash": "2636861745786031653"
+            },
+            {
+                "id": 14162,
+                "name": "暝色缒索",
+                "englishName": "Night's Sling",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，生成<color=#FFFFFFFF>$[C114162]</color>。",
+                "description": "造成2点雷元素伤害，生成宿灵球。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_S_Olorun_01",
+                "iconHash": "17158883695398774826"
+            },
+            {
+                "id": 14163,
+                "name": "黯声回响",
+                "englishName": "Dark Voices Echo",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，召唤<color=#FFFFFFFF>$[C114161]</color>。",
+                "description": "造成2点雷元素伤害，召唤超音灵眼。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_E_Olorun_01_HD",
+                "iconHash": "4010645962567448938"
+            },
+            {
+                "id": 14164,
+                "name": "夜翳的通感",
+                "englishName": "Nightshade Synesthesia",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】<color=#FFFFFFFF>我方触发感电反应后：</color>如果可能，消耗2点<color=#FFFFFFFF>「夜魂值」</color>，造成1点$[K104]。\\n我方造成此技能以外的$[K102]或$[K104]后，自身进入<color=#FFFFFFFF>$[C114163]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>。（每回合1次）",
+                "description": "【被动】我方触发感电反应后：如果可能，消耗2点「夜魂值」，造成1点雷元素伤害。\n我方造成此技能以外的水元素伤害或雷元素伤害后，自身进入夜魂加持，并获得1点「夜魂值」。（每回合1次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_Olorun_02",
+                "iconHash": "15413645005027616197"
+            },
+            {
+                "id": 14165,
+                "name": "夜翳的通感",
+                "englishName": "Nightshade Synesthesia",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】<color=#FFFFFFFF>我方触发感电反应后：</color>如果可能，消耗2点<color=#FFFFFFFF>「夜魂值」</color>，造成1点$[K104]。\\n我方造成此技能以外的$[K102]或$[K104]后，自身进入<color=#FFFFFFFF>$[C114163]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>。（每回合1次）",
+                "description": "【被动】我方触发感电反应后：如果可能，消耗2点「夜魂值」，造成1点雷元素伤害。\n我方造成此技能以外的水元素伤害或雷元素伤害后，自身进入夜魂加持，并获得1点「夜魂值」。（每回合1次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "Skill_S_Olorun_02",
+                "iconHash": "15413645005027616197"
+            }
+        ],
+        "hp": 10,
+        "maxEnergy": 2,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_Olorun",
+        "icon": "UI_Gcg_Char_AvatarIcon_Olorun",
         "category": "characters"
     },
     {
@@ -9166,7 +9416,7 @@
                 "iconHash": "7109999001125141437"
             }
         ],
-        "hp": 10,
+        "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Collei",
         "icon": "UI_Gcg_Char_AvatarIcon_Collei",
@@ -10925,7 +11175,8 @@
         "tags": [
             "GCG_TAG_ELEMENT_HYDRO",
             "GCG_TAG_WEAPON_NONE",
-            "GCG_TAG_CAMP_MONSTER"
+            "GCG_TAG_CAMP_MONSTER",
+            "GCG_TAG_NATION_COSMIC_CALAMITY"
         ],
         "storyTitle": "深秘异兽·吞星之鲸",
         "storyText": "在最魔幻的故事里或是最疯癫的诳语中，宇宙深处真正的星辰或许也如提瓦特一般充满了生机，而宇宙本身就如同海洋。\n或许宇宙渗入提瓦特的过程从未停止；也许更高的意志为它划定了边界是为了保护这个世界。",
@@ -11304,10 +11555,121 @@
                 "iconHash": "421517890308362403"
             }
         ],
-        "hp": 12,
+        "hp": 11,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Narcissusborn",
         "icon": "UI_Gcg_Char_MonsterIcon_Narcissusborn",
+        "category": "characters"
+    },
+    {
+        "id": 2207,
+        "shareId": 546,
+        "sinceVersion": "v6.3.0",
+        "obtainable": true,
+        "name": "圣骸角鳄",
+        "englishName": "Consecrated Horned Crocodile",
+        "tags": [
+            "GCG_TAG_ELEMENT_HYDRO",
+            "GCG_TAG_WEAPON_NONE",
+            "GCG_TAG_CAMP_MONSTER",
+            "GCG_TAG_CAMP_SACREAD"
+        ],
+        "storyTitle": "亡骸患水·圣骸角鳄",
+        "storyText": "因为啃噬伟大的生命体，而扭曲异变的爬行动物，驾驭着多变的水流。",
+        "skills": [
+            {
+                "id": 22071,
+                "name": "尖牙噬咬",
+                "englishName": "Fang Bite",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_HYDRO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_00",
+                "iconHash": "6499903474057818465"
+            },
+            {
+                "id": 22072,
+                "name": "鳄齿锐波",
+                "englishName": "Saw-Toothed Surge",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，将至多1张原本元素骰费用最高的手牌置入牌组底，生成手牌<color=#FFFFFFFF>$[C124051]</color>。",
+                "description": "造成3点水元素伤害，将至多1张原本元素骰费用最高的手牌置入牌组底，生成手牌噬骸能量块。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_HYDRO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_HYDRO",
+                    "D__KEY__DAMAGE": 3
+                },
+                "icon": "MonsterSkill_S_GatorSacred_01",
+                "iconHash": "12688841744677585140"
+            },
+            {
+                "id": 22073,
+                "name": "凶鳄狂浪",
+                "englishName": "Reptilian Rage",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，$[K56]至多3张<color=#FFFFFFFF>$[C124051]</color>，每$[K56]1张，治疗我方受伤最多的角色1点，并使其获得1点最大生命值。",
+                "description": "造成4点水元素伤害，舍弃至多3张噬骸能量块，每舍弃1张，治疗我方受伤最多的角色1点，并使其获得1点最大生命值。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_HYDRO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_HYDRO",
+                    "D__KEY__DAMAGE": 4
+                },
+                "icon": "MonsterSkill_E_GatorSacred_01_HD",
+                "iconHash": "10804331607485669985"
+            },
+            {
+                "id": 22074,
+                "name": "圣骸感应",
+                "englishName": "Consecrated Senses",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】我方打出或弃置<color=#FFFFFFFF>$[C124051]</color>后，治疗我方受伤最多的角色1点。",
+                "description": "【被动】我方打出或弃置噬骸能量块后，治疗我方受伤最多的角色1点。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "MonsterSkill_S_GatorSacred_02",
+                "iconHash": "10838772885491868698"
+            }
+        ],
+        "hp": 11,
+        "maxEnergy": 2,
+        "cardFace": "UI_Gcg_CardFace_Char_Monster_GatorSacred",
+        "icon": "UI_Gcg_Char_MonsterIcon_GatorSacred",
         "category": "characters"
     },
     {
@@ -11912,7 +12274,7 @@
                 "iconHash": "4969180162511325285"
             }
         ],
-        "hp": 12,
+        "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl",
         "icon": "UI_Gcg_Char_MonsterIcon_TheAbyssXiuhcoatl",
@@ -14567,6 +14929,131 @@
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_DahakaElec",
         "icon": "UI_Gcg_Char_MonsterIcon_DahakaElec",
+        "category": "characters"
+    },
+    {
+        "id": 6605,
+        "sinceVersion": "v6.3.0",
+        "obtainable": true,
+        "name": "丝柯克",
+        "englishName": "Skirk",
+        "tags": [
+            "GCG_TAG_ELEMENT_CRYO",
+            "GCG_TAG_WEAPON_SWORD",
+            "GCG_TAG_NATION_COSMIC_CALAMITY"
+        ],
+        "skills": [
+            {
+                "id": 11161,
+                "name": "极恶技·断",
+                "englishName": "Havoc: Sunder",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_01",
+                "iconHash": "15664253407751301348"
+            },
+            {
+                "id": 11162,
+                "name": "极恶技·闪",
+                "englishName": "Havoc: Warp",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "获得2点<color=#FFFFFFFF>蛇之狡谋</color>，生成手牌<color=#FFFFFFFF>$[C111161]</color>。（每回合1次）",
+                "description": "获得2点蛇之狡谋，生成手牌诸武相授。（每回合1次）",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_SkirkNew_01",
+                "iconHash": "5015564225513846305"
+            },
+            {
+                "id": 11165,
+                "name": "极恶技·尽",
+                "englishName": "Havoc: Extinction",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "将2个非万能元素骰转化为<color=#99FFFFFF>{SPRITE_PRESET#1101}冰元素骰</color>，$[K56]至多2张原本元素骰花费为0骰的卡牌，每$[K56]1张，<color=#FFFFFFFF>$[A1116]</color>获得1点<color=#FFFFFFFF>蛇之狡谋</color>。",
+                "description": "将2个非万能元素骰转化为冰元素骰，舍弃至多2张原本元素骰花费为0骰的卡牌，每舍弃1张，丝柯克获得1点蛇之狡谋。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 1
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_E_SkirkNew_02_HD",
+                "iconHash": "5903466291070401768"
+            },
+            {
+                "id": 11164,
+                "name": "理外之理",
+                "englishName": "Reason Beyond Reason",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】丝柯克无法获得充能，改为可以积累<color=#FFFFFFFF>蛇之狡谋</color>，最多7点。\\n<color=#FFFFFFFF>我方触发冻结/冰扩散/超导/冰结晶反应后：</color>生成手牌 <color=#FFFFFFFF>$[C111163]</color>。（每回合3次）",
+                "description": "【被动】丝柯克无法获得充能，改为可以积累蛇之狡谋，最多7点。\n我方触发冻结/冰扩散/超导/冰结晶反应后：生成手牌 虚境裂隙。（每回合3次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_SkirkNew_03",
+                "iconHash": "6558777458013480347"
+            },
+            {
+                "id": 11166,
+                "name": "理外之理",
+                "englishName": "Reason Beyond Reason",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】丝柯克无法获得充能，改为可以积累<color=#FFFFFFFF>蛇之狡谋</color>，最多7点。\\n<color=#FFFFFFFF>我方触发冻结/冰扩散/超导/冰结晶反应后：</color>生成手牌 <color=#FFFFFFFF>$[C111163]</color>。（每回合3次）",
+                "description": "【被动】丝柯克无法获得充能，改为可以积累蛇之狡谋，最多7点。\n我方触发冻结/冰扩散/超导/冰结晶反应后：生成手牌 虚境裂隙。（每回合3次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {},
+                "icon": "Skill_E_SkirkNew_02_HD",
+                "iconHash": "5903466291070401768"
+            },
+            {
+                "id": 11167,
+                "name": "理外之理",
+                "englishName": "Reason Beyond Reason",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】丝柯克无法获得充能，改为可以积累<color=#FFFFFFFF>蛇之狡谋</color>，最多7点。\\n<color=#FFFFFFFF>我方触发冻结/冰扩散/超导/冰结晶反应后：</color>生成手牌 <color=#FFFFFFFF>$[C111163]</color>。（每回合3次）",
+                "description": "【被动】丝柯克无法获得充能，改为可以积累蛇之狡谋，最多7点。\n我方触发冻结/冰扩散/超导/冰结晶反应后：生成手牌 虚境裂隙。（每回合3次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {},
+                "icon": "Skill_E_SkirkNew_02_HD",
+                "iconHash": "5903466291070401768"
+            }
+        ],
+        "hp": 10,
+        "maxEnergy": 0,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_SkirkNew02",
+        "icon": "Gcg_CardFace_Char_Avatar_SkirkNew02",
         "category": "characters"
     }
 ]

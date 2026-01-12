@@ -112,6 +112,7 @@ const tags = {
     GCG_TAG_WEAPON_CATALYST: "法器",
   },
   所属: {
+    GCG_TAG_NATION_SIMULANKA: "希穆兰卡",
     GCG_TAG_NATION_MONDSTADT: "蒙德",
     GCG_TAG_NATION_LIYUE: "璃月",
     GCG_TAG_NATION_INAZUMA: "稻妻",
@@ -120,6 +121,7 @@ const tags = {
     GCG_TAG_NATION_NATLAN: "纳塔",
     GCG_TAG_NATION_SNEZHNAYA: "至冬",
     GCG_TAG_NATION_KHAENRIAH: "坎瑞亚",
+    GCG_TAG_NATION_COSMIC_CALAMITY: "寰宇劫灭",
     GCG_TAG_CAMP_FATUI: "愚人众",
     GCG_TAG_CAMP_HILICHURL: "丘丘人",
     GCG_TAG_CAMP_MONSTER: "魔物",
@@ -151,6 +153,7 @@ const tagsEn = {
     GCG_TAG_WEAPON_CATALYST: "Catalyst",
   },
   Affiliation: {
+    GCG_TAG_NATION_SIMULANKA: "Simulanka",
     GCG_TAG_NATION_MONDSTADT: "Mondstadt",
     GCG_TAG_NATION_LIYUE: "Liyue",
     GCG_TAG_NATION_INAZUMA: "Inazuma",
@@ -159,6 +162,7 @@ const tagsEn = {
     GCG_TAG_NATION_NATLAN: "Natlan",
     GCG_TAG_NATION_SNEZHNAYA: "Snezhnaya",
     GCG_TAG_NATION_KHAENRIAH: "Khaenri'ah",
+    GCG_TAG_NATION_COSMIC_CALAMITY: "Cosmic Calamity",
     GCG_TAG_CAMP_FATUI: "Fatui",
     GCG_TAG_CAMP_HILICHURL: "Hilichurl",
     GCG_TAG_CAMP_MONSTER: "Monster",
@@ -184,6 +188,7 @@ const allCharacters = computed(() => {
 
   const knownCharacters = characterInfo
     .flatMap((charInfo) => {
+      if (charInfo.id === 6605) return [];
       const generatedCharacters = [];
       const baseKey = charInfo.cardFace.replace("UI_Gcg_CardFace_Char_", "");
       let displayName;

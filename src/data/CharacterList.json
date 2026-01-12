@@ -582,6 +582,16 @@
         "btn": {},
         "mix": 0.2
     },
+    "Avatar_Olorun": {
+        "bg": "Gcg_CardFace_Char_Avatar_Olorun_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Olorun_Sub1_Spine",
+            "Gcg_CardFace_Char_Avatar_Olorun_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_Olorun_Spine"
+        ],
+        "btn": {},
+        "mix": 0.1
+    },
     "Avatar_Qin": {
         "bg": "Gcg_CardFace_Char_Avatar_Qin_Spine_Bg.webp",
         "spine": [
@@ -675,6 +685,24 @@
         ],
         "btn": {},
         "mix": 0
+    },
+    "Avatar_SkirkNew": {
+        "bg": "Gcg_CardFace_Char_Avatar_SkirkNew_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_SkirkNew_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_SkirkNew_Spine"
+        ],
+        "btn": {},
+        "mix": 0
+    },
+    "Avatar_SkirkNew02": {
+        "bg": "Gcg_CardFace_Char_Avatar_SkirkNew_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_SkirkNew02_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_SkirkNew02_Spine"
+        ],
+        "btn": {},
+        "mix": 0.05
     },
     "Avatar_Sucrose": {
         "bg": "Gcg_CardFace_Char_Avatar_Sucrose_Spine_Bg.webp",
