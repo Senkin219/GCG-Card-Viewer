@@ -353,6 +353,16 @@
         "btn": {},
         "mix": 0.2
     },
+    "Avatar_Ineffa": {
+        "bg": "Gcg_CardFace_Char_Avatar_Ineffa_Spine_Bg.png",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Ineffa_Sub2_Spine",
+            "Gcg_CardFace_Char_Avatar_Ineffa_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_Ineffa_Spine"
+        ],
+        "btn": {},
+        "mix": 0
+    },
     "Avatar_Itto": {
         "bg": "Gcg_CardFace_Char_Avatar_Itto_Spine_Bg.webp",
         "spine": [
@@ -499,6 +509,15 @@
         ],
         "btn": {},
         "mix": 0.2
+    },
+    "Avatar_Mika": {
+        "bg": "Gcg_CardFace_Char_Avatar_Mika_Spine_Bg.png",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Mika_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_Mika_Spine"
+        ],
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Mizuki": {
         "bg": "Gcg_CardFace_Char_Avatar_Mizuki_Spine_Bg.webp",
@@ -1003,6 +1022,15 @@
         ],
         "btn": {},
         "mix": 0
+    },
+    "Monster_FlamingoPrimo": {
+        "bg": "Gcg_CardFace_Char_Monster_FlamingoPrimo_Spine_Bg.png",
+        "spine": [
+            "Gcg_CardFace_Char_Monster_FlamingoPrimo_Sub_Spine",
+            "Gcg_CardFace_Char_Monster_FlamingoPrimo_Spine"
+        ],
+        "btn": {},
+        "mix": 0.2
     },
     "Monster_Fungusgrass": {
         "bg": "Gcg_CardFace_Char_Monster_Fungusgrass_Spine_Bg.webp",

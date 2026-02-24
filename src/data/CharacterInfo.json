@@ -1546,7 +1546,7 @@
                 "iconHash": "9231393030805220522"
             }
         ],
-        "hp": 11,
+        "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Escoffier",
         "icon": "UI_Gcg_Char_AvatarIcon_Escoffier",
@@ -1672,6 +1672,113 @@
         "maxEnergy": 0,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_SkirkNew",
         "icon": "UI_Gcg_Char_AvatarIcon_SkirkNew",
+        "category": "characters"
+    },
+    {
+        "id": 1117,
+        "shareId": 555,
+        "sinceVersion": "v6.4.0",
+        "obtainable": true,
+        "name": "米卡",
+        "englishName": "Mika",
+        "tags": [
+            "GCG_TAG_ELEMENT_CRYO",
+            "GCG_TAG_WEAPON_POLE",
+            "GCG_TAG_NATION_MONDSTADT"
+        ],
+        "storyTitle": "晴霜的标绘·米卡",
+        "storyText": "翎羽如穗，绘摹殊境。",
+        "skills": [
+            {
+                "id": 11171,
+                "name": "西风枪术·镝传",
+                "englishName": "Spear of Favonius - Arrow's Passage",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_03",
+                "iconHash": "6801928435021247855"
+            },
+            {
+                "id": 11172,
+                "name": "星霜的流旋",
+                "englishName": "Starfrost Swirl",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，生成<color=#FFFFFFFF>$[C111171]</color>。",
+                "description": "造成2点冰元素伤害，生成灵风。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_CRYO",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_S_Mika_01",
+                "iconHash": "16346429351037777892"
+            },
+            {
+                "id": 11173,
+                "name": "苍翎的颂愿",
+                "englishName": "Skyfeather Song",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "治疗我方全体角色1点，生成<color=#FFFFFFFF>$[C111172]</color>和<color=#FFFFFFFF>$[C111176]</color>。",
+                "description": "治疗我方全体角色1点，生成鹰翎心得和鹰翎祝念。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_CRYO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_E_Mika_01_HD",
+                "iconHash": "4691793062274214426"
+            },
+            {
+                "id": 11174,
+                "name": "速射牵制",
+                "englishName": "Suppressive Barrage",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】<color=#FFFFFFFF>自身使用技能后：</color>下次我方造成的$[K100]+1。（每回合2次）",
+                "description": "【被动】自身使用技能后：下次我方造成的物理伤害+1。（每回合2次）",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_Mika_02",
+                "iconHash": "17609094905044011468"
+            }
+        ],
+        "hp": 10,
+        "maxEnergy": 2,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_Mika",
+        "icon": "UI_Gcg_Char_AvatarIcon_Mika",
         "category": "characters"
     },
     {
@@ -2613,7 +2720,7 @@
                 "iconHash": "5902135714807129167"
             }
         ],
-        "hp": 10,
+        "hp": 11,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Yelan",
         "icon": "UI_Gcg_Char_AvatarIcon_Yelan",
@@ -4389,8 +4496,8 @@
                 "name": "热情拂扫",
                 "englishName": "Sweeping Fervor",
                 "type": "GCG_SKILL_TAG_E",
-                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，随机$[K56]1张原本元素骰费用最高的手牌，生成<color=#FFFFFFFF>$[C113121]</color>。",
-                "description": "造成2点火元素伤害，随机舍弃1张原本元素骰费用最高的手牌，生成热情护盾。",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，随机$[K56]1张$[K3002]最高的手牌，生成<color=#FFFFFFFF>$[C113121]</color>。",
+                "description": "造成2点火元素伤害，随机舍弃1张当前元素骰费用最高的手牌，生成热情护盾。",
                 "playCost": [
                     {
                         "type": "GCG_COST_DICE_PYRO",
@@ -4938,6 +5045,19 @@
                     "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO",
                     "D__KEY__DAMAGE": 2
                 },
+                "icon": "Skill_A_04",
+                "iconHash": "5805647003315671574"
+            },
+            {
+                "id": 13165,
+                "name": "踏云献瑞",
+                "englishName": "Charmed Cloudstrider",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成D__KEY__DAMAGE点D__KEY__ELEMENT。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
                 "icon": "Skill_A_04",
                 "iconHash": "5805647003315671574"
             }
@@ -6632,8 +6752,8 @@
                 "name": "夜翳的通感",
                 "englishName": "Nightshade Synesthesia",
                 "type": "GCG_SKILL_TAG_PASSIVE",
-                "rawDescription": "【被动】<color=#FFFFFFFF>我方触发感电反应后：</color>如果可能，消耗2点<color=#FFFFFFFF>「夜魂值」</color>，造成1点$[K104]。\\n我方造成此技能以外的$[K102]或$[K104]后，自身进入<color=#FFFFFFFF>$[C114163]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>。（每回合1次）",
-                "description": "【被动】我方触发感电反应后：如果可能，消耗2点「夜魂值」，造成1点雷元素伤害。\n我方造成此技能以外的水元素伤害或雷元素伤害后，自身进入夜魂加持，并获得1点「夜魂值」。（每回合1次）",
+                "rawDescription": "【被动】<color=#FFFFFFFF>我方触发感电或月感电反应后：</color>如果可能，消耗2点<color=#FFFFFFFF>「夜魂值」</color>，造成1点$[K104]。\\n我方造成此技能以外的$[K102]或$[K104]后，自身进入<color=#FFFFFFFF>$[C114163]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>。（每回合1次）",
+                "description": "【被动】我方触发感电或月感电反应后：如果可能，消耗2点「夜魂值」，造成1点雷元素伤害。\n我方造成此技能以外的水元素伤害或雷元素伤害后，自身进入夜魂加持，并获得1点「夜魂值」。（每回合1次）",
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
@@ -6646,8 +6766,8 @@
                 "name": "夜翳的通感",
                 "englishName": "Nightshade Synesthesia",
                 "type": "GCG_SKILL_TAG_PASSIVE",
-                "rawDescription": "【被动】<color=#FFFFFFFF>我方触发感电反应后：</color>如果可能，消耗2点<color=#FFFFFFFF>「夜魂值」</color>，造成1点$[K104]。\\n我方造成此技能以外的$[K102]或$[K104]后，自身进入<color=#FFFFFFFF>$[C114163]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>。（每回合1次）",
-                "description": "【被动】我方触发感电反应后：如果可能，消耗2点「夜魂值」，造成1点雷元素伤害。\n我方造成此技能以外的水元素伤害或雷元素伤害后，自身进入夜魂加持，并获得1点「夜魂值」。（每回合1次）",
+                "rawDescription": "【被动】<color=#FFFFFFFF>我方触发感电或月感电反应后：</color>如果可能，消耗2点<color=#FFFFFFFF>「夜魂值」</color>，造成1点$[K104]。\\n我方造成此技能以外的$[K102]或$[K104]后，自身进入<color=#FFFFFFFF>$[C114163]</color>，并获得1点<color=#FFFFFFFF>「夜魂值」</color>。（每回合1次）",
+                "description": "【被动】我方触发感电或月感电反应后：如果可能，消耗2点「夜魂值」，造成1点雷元素伤害。\n我方造成此技能以外的水元素伤害或雷元素伤害后，自身进入夜魂加持，并获得1点「夜魂值」。（每回合1次）",
                 "playCost": [],
                 "targetList": [],
                 "hidden": true,
@@ -6663,6 +6783,136 @@
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Avatar_Olorun",
         "icon": "UI_Gcg_Char_AvatarIcon_Olorun",
+        "category": "characters"
+    },
+    {
+        "id": 1417,
+        "shareId": 556,
+        "sinceVersion": "v6.4.0",
+        "obtainable": true,
+        "name": "伊涅芙",
+        "englishName": "Ineffa",
+        "tags": [
+            "GCG_TAG_ELEMENT_ELECTRO",
+            "GCG_TAG_WEAPON_POLE",
+            "GCG_TAG_NATION_NODKRAI"
+        ],
+        "storyTitle": "轰隆雷鸣波·伊涅芙",
+        "storyText": "白铁锻身，赤心铸魂。",
+        "skills": [
+            {
+                "id": 14171,
+                "name": "除尘旋刃",
+                "englishName": "Cyclonic Duster",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_03",
+                "iconHash": "6801928435021247855"
+            },
+            {
+                "id": 14172,
+                "name": "涤净模式·稳态载频",
+                "englishName": "Cleaning Mode: Carrier Frequency",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "生成2点<color=#FFFFFFFF>$[C203]</color>，召唤<color=#FFFFFFFF>$[C114171]</color>。",
+                "description": "生成2点护盾，召唤薇尔琪塔。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [
+                    {
+                        "id": 102,
+                        "type": "GCG_CARD_CHARACTER",
+                        "camp": "FRIENDLY",
+                        "tags": [],
+                        "rawHintText": "对我方出战角色生效",
+                        "hintText": "对我方出战角色生效"
+                    }
+                ],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_Ineffa_01",
+                "iconHash": "16770943340621363045"
+            },
+            {
+                "id": 14173,
+                "name": "至高律令·全域扫灭",
+                "englishName": "Supreme Instruction: Cyclonic Exterminator",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，召唤<color=#FFFFFFFF>$[C114171]</color>。",
+                "description": "造成4点雷元素伤害，召唤薇尔琪塔。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_ELECTRO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_ELECTRO",
+                    "D__KEY__DAMAGE": 4
+                },
+                "icon": "Skill_E_Ineffa_01_HD",
+                "iconHash": "12825930219695988945"
+            },
+            {
+                "id": 14174,
+                "name": "月兆祝赐·象拟中继",
+                "englishName": "Moonsign Benediction: Assemblage Hub",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】本局游戏中，敌方受到<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}感电反应</color>时，改为<color=#FFFFFFFF>$[K3001]</color>反应。\\n自身在场，敌方行动牌被赋予<color=#FFFFFFFF>$[C204]</color>时：额外赋予<color=#FFFFFFFF>$[C207]</color>状态。",
+                "description": "【被动】本局游戏中，敌方受到感电反应时，改为月感电反应。\n自身在场，敌方行动牌被赋予电击时：额外赋予不可调和状态。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "Skill_S_Ineffa_02",
+                "iconHash": "1645387790308290584"
+            },
+            {
+                "id": 14175,
+                "name": "月兆祝赐·象拟中继",
+                "englishName": "Moonsign Benediction: Assemblage Hub",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "自身在场，敌方行动牌被赋予<color=#FFFFFFFF>$[C204]</color>时：额外赋予<color=#FFFFFFFF>$[C207]</color>状态。",
+                "description": "自身在场，敌方行动牌被赋予电击时：额外赋予不可调和状态。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": true,
+                "keyMap": {},
+                "icon": "Skill_S_Ineffa_02",
+                "iconHash": "1645387790308290584"
+            }
+        ],
+        "hp": 10,
+        "maxEnergy": 2,
+        "cardFace": "UI_Gcg_CardFace_Char_Avatar_Ineffa",
+        "icon": "UI_Gcg_Char_AvatarIcon_Ineffa",
         "category": "characters"
     },
     {
@@ -11212,8 +11462,8 @@
                 "name": "迸落星雨",
                 "englishName": "Starfall Shower",
                 "type": "GCG_SKILL_TAG_E",
-                "rawDescription": "造成$[D__KEY__DAMAGE_2]点$[D__KEY__ELEMENT]，此角色每有3点<color=#FFFFFFFF>$[S22044]</color>提供的额外最大生命，此伤害+1（最多+3）。然后$[K56]1张原本元素骰费用最高的手牌。",
-                "description": "造成1点水元素伤害，此角色每有3点无尽食欲提供的额外最大生命，此伤害+1（最多+3）。然后舍弃1张原本元素骰费用最高的手牌。",
+                "rawDescription": "造成$[D__KEY__DAMAGE_2]点$[D__KEY__ELEMENT]，此角色每有3点<color=#FFFFFFFF>$[S22044]</color>提供的额外最大生命，此伤害+1（最多+3）。然后$[K56]1张$[K3002]最高的手牌。",
+                "description": "造成1点水元素伤害，此角色每有3点无尽食欲提供的额外最大生命，此伤害+1（最多+3）。然后舍弃1张当前元素骰费用最高的手牌。",
                 "playCost": [
                     {
                         "type": "GCG_COST_DICE_HYDRO",
@@ -11273,7 +11523,7 @@
                 "iconHash": "958030240133643776"
             }
         ],
-        "hp": 5,
+        "hp": 6,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Ptahur",
         "icon": "UI_Gcg_Char_MonsterIcon_Ptahur",
@@ -11555,7 +11805,7 @@
                 "iconHash": "421517890308362403"
             }
         ],
-        "hp": 11,
+        "hp": 10,
         "maxEnergy": 3,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Narcissusborn",
         "icon": "UI_Gcg_Char_MonsterIcon_Narcissusborn",
@@ -11608,8 +11858,8 @@
                 "name": "鳄齿锐波",
                 "englishName": "Saw-Toothed Surge",
                 "type": "GCG_SKILL_TAG_E",
-                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，将至多1张原本元素骰费用最高的手牌置入牌组底，生成手牌<color=#FFFFFFFF>$[C124051]</color>。",
-                "description": "造成3点水元素伤害，将至多1张原本元素骰费用最高的手牌置入牌组底，生成手牌噬骸能量块。",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，将至多1张$[K3002]最高的手牌置入牌组底，生成手牌<color=#FFFFFFFF>$[C124051]</color>。",
+                "description": "造成3点水元素伤害，将至多1张当前元素骰费用最高的手牌置入牌组底，生成手牌噬骸能量块。",
                 "playCost": [
                     {
                         "type": "GCG_COST_DICE_HYDRO",
@@ -11656,8 +11906,8 @@
                 "name": "圣骸感应",
                 "englishName": "Consecrated Senses",
                 "type": "GCG_SKILL_TAG_PASSIVE",
-                "rawDescription": "【被动】我方打出或弃置<color=#FFFFFFFF>$[C124051]</color>后，治疗我方受伤最多的角色1点。",
-                "description": "【被动】我方打出或弃置噬骸能量块后，治疗我方受伤最多的角色1点。",
+                "rawDescription": "【被动】我方打出或$[K56]<color=#FFFFFFFF>$[C124051]</color>后，治疗我方受伤最多的角色1点。",
+                "description": "【被动】我方打出或舍弃噬骸能量块后，治疗我方受伤最多的角色1点。",
                 "playCost": [],
                 "targetList": [],
                 "hidden": false,
@@ -11776,7 +12026,7 @@
                 "iconHash": "12191242929160916203"
             }
         ],
-        "hp": 9,
+        "hp": 11,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Fatuus",
         "icon": "UI_Gcg_Char_MonsterIcon_Fatuus",
@@ -12278,6 +12528,116 @@
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_TheAbyssXiuhcoatl",
         "icon": "UI_Gcg_Char_MonsterIcon_TheAbyssXiuhcoatl",
+        "category": "characters"
+    },
+    {
+        "id": 2306,
+        "shareId": 557,
+        "sinceVersion": "v6.4.0",
+        "obtainable": true,
+        "name": "金焰绒翼龙暴君",
+        "englishName": "Goldflame Qucusaur Tyrant",
+        "tags": [
+            "GCG_TAG_ELEMENT_PYRO",
+            "GCG_TAG_WEAPON_NONE",
+            "GCG_TAG_CAMP_MONSTER"
+        ],
+        "storyTitle": "告谕之翎·金焰绒翼龙暴君",
+        "storyText": "因承受了如今龙众的身躯无法驭使的伟力，而拥有超然形体的异种绒翼龙。",
+        "skills": [
+            {
+                "id": 23061,
+                "name": "翼斩",
+                "englishName": "Wingcleave",
+                "type": "GCG_SKILL_TAG_A",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。",
+                "description": "造成2点物理伤害。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_PYRO",
+                        "count": 1
+                    },
+                    {
+                        "type": "GCG_COST_DICE_VOID",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PHYSIC",
+                    "D__KEY__DAMAGE": 2
+                },
+                "icon": "Skill_A_00",
+                "iconHash": "6499903474057818465"
+            },
+            {
+                "id": 23062,
+                "name": "升腾炽风",
+                "englishName": "Rising Scorchwind",
+                "type": "GCG_SKILL_TAG_E",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，自身附属2层<color=#FFFFFFFF>$[C123062]</color>。",
+                "description": "造成1点火元素伤害，自身附属2层飞旋。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_PYRO",
+                        "count": 3
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO",
+                    "D__KEY__DAMAGE": 1
+                },
+                "icon": "MonsterSkill_E_HookwalkerPrimo_01_HD",
+                "iconHash": "13731486030547102964"
+            },
+            {
+                "id": 23063,
+                "name": "金焰爆轰",
+                "englishName": "Goldflame Detonation",
+                "type": "GCG_SKILL_TAG_Q",
+                "rawDescription": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]，对所有敌方后台角色造成1点$[K5]，自身附属1层<color=#FFFFFFFF>$[C123061]</color>。",
+                "description": "造成3点火元素伤害，对所有敌方后台角色造成1点穿透伤害，自身附属1层金焰形态。",
+                "playCost": [
+                    {
+                        "type": "GCG_COST_DICE_PYRO",
+                        "count": 3
+                    },
+                    {
+                        "type": "GCG_COST_ENERGY",
+                        "count": 2
+                    }
+                ],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {
+                    "D__KEY__ELEMENT": "GCG_ELEMENT_PYRO",
+                    "D__KEY__DAMAGE": 3
+                },
+                "icon": "MonsterSkill_S_Ptahur_01",
+                "iconHash": "18077501572026921001"
+            },
+            {
+                "id": 23064,
+                "name": "古老者的血脉",
+                "englishName": "Ancient Bloodline",
+                "type": "GCG_SKILL_TAG_PASSIVE",
+                "rawDescription": "【被动】<color=#FFFFFFFF>偶数行动阶段开始时：</color>自身附属1层<color=#FFFFFFFF>$[C123061]</color>。",
+                "description": "【被动】偶数行动阶段开始时：自身附属1层金焰形态。",
+                "playCost": [],
+                "targetList": [],
+                "hidden": false,
+                "keyMap": {},
+                "icon": "MonsterSkill_S_FlamingoPrimo_01",
+                "iconHash": "6611797148090615537"
+            }
+        ],
+        "hp": 11,
+        "maxEnergy": 2,
+        "cardFace": "UI_Gcg_CardFace_Char_Monster_FlamingoPrimo",
+        "icon": "UI_Gcg_Char_MonsterIcon_FlamingoPrimo",
         "category": "characters"
     },
     {
@@ -13481,7 +13841,7 @@
                 "iconHash": "15683520003171221983"
             }
         ],
-        "hp": 8,
+        "hp": 10,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Bruterock",
         "icon": "UI_Gcg_Char_MonsterIcon_Bruterock",
@@ -13955,7 +14315,7 @@
                 "iconHash": "17068394253259091513"
             }
         ],
-        "hp": 10,
+        "hp": 12,
         "maxEnergy": 2,
         "cardFace": "UI_Gcg_CardFace_Char_Monster_Fungusgrass",
         "icon": "UI_Gcg_Char_MonsterIcon_Fungusgrass",
@@ -14934,7 +15294,7 @@
     {
         "id": 6605,
         "sinceVersion": "v6.3.0",
-        "obtainable": true,
+        "obtainable": false,
         "name": "丝柯克",
         "englishName": "Skirk",
         "tags": [
@@ -14993,8 +15353,8 @@
                 "name": "极恶技·尽",
                 "englishName": "Havoc: Extinction",
                 "type": "GCG_SKILL_TAG_Q",
-                "rawDescription": "将2个非万能元素骰转化为<color=#99FFFFFF>{SPRITE_PRESET#1101}冰元素骰</color>，$[K56]至多2张原本元素骰花费为0骰的卡牌，每$[K56]1张，<color=#FFFFFFFF>$[A1116]</color>获得1点<color=#FFFFFFFF>蛇之狡谋</color>。",
-                "description": "将2个非万能元素骰转化为冰元素骰，舍弃至多2张原本元素骰花费为0骰的卡牌，每舍弃1张，丝柯克获得1点蛇之狡谋。",
+                "rawDescription": "将2个非万能元素骰转化为<color=#99FFFFFF>{SPRITE_PRESET#1101}冰元素骰</color>，$[K56]至多2张$[K3002]为0骰的卡牌，每$[K56]1张，<color=#FFFFFFFF>$[A1116]</color>获得1点<color=#FFFFFFFF>蛇之狡谋</color>。",
+                "description": "将2个非万能元素骰转化为冰元素骰，舍弃至多2张当前元素骰费用为0骰的卡牌，每舍弃1张，丝柯克获得1点蛇之狡谋。",
                 "playCost": [
                     {
                         "type": "GCG_COST_DICE_CRYO",
