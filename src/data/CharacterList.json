@@ -1,4 +1,13 @@
 {
+    "Avatar_Aino": {
+        "bg": "Gcg_CardFace_Char_Avatar_Aino_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Aino_Sub_Spine",
+            "Gcg_CardFace_Char_Avatar_Aino_Spine"
+        ],
+        "btn": {},
+        "mix": 0.05
+    },
     "Avatar_Albedo": {
         "bg": "Gcg_CardFace_Char_Avatar_Albedo_Spine_Bg.webp",
         "spine": [
@@ -174,6 +183,16 @@
         ],
         "btn": {},
         "mix": 0.2
+    },
+    "Avatar_Dahlia": {
+        "bg": "Gcg_CardFace_Char_Avatar_Dahlia_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Avatar_Dahlia_Sub3_Spine",
+            "Gcg_CardFace_Char_Avatar_Dahlia_Sub2_Spine",
+            "Gcg_CardFace_Char_Avatar_Dahlia_Spine"
+        ],
+        "btn": {},
+        "mix": 0
     },
     "Avatar_Dehya": {
         "bg": "Gcg_CardFace_Char_Avatar_Dehya_Spine_Bg.webp",
@@ -354,7 +373,7 @@
         "mix": 0.2
     },
     "Avatar_Ineffa": {
-        "bg": "Gcg_CardFace_Char_Avatar_Ineffa_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Ineffa_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Ineffa_Sub2_Spine",
             "Gcg_CardFace_Char_Avatar_Ineffa_Sub_Spine",
@@ -511,7 +530,7 @@
         "mix": 0.2
     },
     "Avatar_Mika": {
-        "bg": "Gcg_CardFace_Char_Avatar_Mika_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Avatar_Mika_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Avatar_Mika_Sub_Spine",
             "Gcg_CardFace_Char_Avatar_Mika_Spine"
@@ -1024,7 +1043,7 @@
         "mix": 0
     },
     "Monster_FlamingoPrimo": {
-        "bg": "Gcg_CardFace_Char_Monster_FlamingoPrimo_Spine_Bg.png",
+        "bg": "Gcg_CardFace_Char_Monster_FlamingoPrimo_Spine_Bg.webp",
         "spine": [
             "Gcg_CardFace_Char_Monster_FlamingoPrimo_Sub_Spine",
             "Gcg_CardFace_Char_Monster_FlamingoPrimo_Spine"
@@ -1149,6 +1168,16 @@
         ],
         "btn": {},
         "mix": 0.2
+    },
+    "Monster_PantherSacred": {
+        "bg": "Gcg_CardFace_Char_Monster_PantherSacred_Spine_Bg.webp",
+        "spine": [
+            "Gcg_CardFace_Char_Monster_PantherSacred_Sub2_Spine",
+            "Gcg_CardFace_Char_Monster_PantherSacred_Sub_Spine",
+            "Gcg_CardFace_Char_Monster_PantherSacred_Spine"
+        ],
+        "btn": {},
+        "mix": 0
     },
     "Monster_Planelurker": {
         "bg": "Gcg_CardFace_Char_Monster_Planelurker_Spine_Bg.webp",

@@ -7,6 +7,7 @@ const outputFile2 = path.join("src", "data", "CharacterInfo.json");
 
 // unofficial data
 const mixDurations = {
+  Avatar_Aino: 0.05,
   Avatar_Albedo: 0,
   Avatar_Arlecchino: 0,
   Avatar_Baizhuer: 0.05,
@@ -18,6 +19,7 @@ const mixDurations = {
   Avatar_Chongyun: 0.1,
   Avatar_Citlali: 0,
   Avatar_Clorinde: 0,
+  Avatar_Dahlia: 0,
   Avatar_Dori: 0.05,
   Avatar_Emilie: 0,
   Avatar_Escoffier: 0.1,
@@ -63,6 +65,7 @@ const mixDurations = {
   Monster_Muscleman: 0,
   Monster_Narcissusborn: 0,
   Monster_Ningyo: 0.1,
+  Monster_PantherSacred: 0,
   Monster_TheAbyssXiuhcoatl: 0.03,
 };
 

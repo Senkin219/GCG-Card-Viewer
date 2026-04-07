@@ -243,7 +243,7 @@ const allCharacters = computed(() => {
     if (!hasAffiliation) {
       char.tags.push("TAG_其他所属");
     }
-    const loliIds = [1102, 1108, 1213, 1306, 1410, 1414, 1507, 1610, 1703, 1704];
+    const loliIds = [1102, 1108, 1213, 1216, 1306, 1410, 1414, 1507, 1610, 1703, 1704];
     if (loliIds.includes(char.id)) {
       char.tags.push("TAG_LOLI");
     }
